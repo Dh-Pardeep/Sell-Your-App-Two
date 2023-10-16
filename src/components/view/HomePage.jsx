@@ -4,15 +4,17 @@ import AboutUs from '../AllSection/AboutUs'
 import WhyUs from "../AllSection/WhyUs";
 import MyFooter from "../common/MyFooter";
 import HeroSection from "../AllSection/HeroSection";
+import HowWork from '../AllSection/HowWork';
 
 const HomePage = () => {
   return (
     <>
-      <HeroSection />
+      {/* <HeroSection />
       <AboutYou />
-      <AboutUs />
-      <WhyUs />
-      <MyFooter />
+      <AboutUs />*/}
+      <HowWork/>
+      {/* <WhyUs />
+      <MyFooter />  */}
     </>
 
 
