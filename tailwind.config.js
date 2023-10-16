@@ -28,6 +28,7 @@ export default {
 
     extend: {
       colors: {
+        "Hero-bg":"#0F021D",
         "dark": "#ICICIC",
         "black-light": "#969696",
       },

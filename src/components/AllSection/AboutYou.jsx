@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutYou = () => {
     return (
-        <section>
+        <section className='my-5 lg:my-[104px]'>
             <div className='container mx-auto flex justify-center'>
                 <div className='relative  about_bg sm:p-[40px] p-[12px] w-[922px] rounded-[40px] shadow-[4px_5px_65px_0px_rgba(0, 0, 0, 0.06)]'>
                     <div className='absolute top-[36px] left-[10px] sm:w-[193px] w-[100px] sm:h-[195px] h-[100px] rounded-[137px] opacity-50 about_ellipse'></div>
