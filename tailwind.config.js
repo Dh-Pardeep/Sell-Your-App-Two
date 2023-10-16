@@ -4,7 +4,41 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
-    extend: {},
+    fontSize: {
+      "xsm": "14px",
+      "sm": "16px",
+      "xmd": "20px",
+      "md": "24px",
+      "lg": "34px",
+      "xl": "60px"
+    },
+    screens: {
+      'sm': '575.9px',
+      'md': '767.9px',
+      'lg': '991.9px',
+      'xl': '1200px',
+      'xxl': '1400px',
+    },
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+        '2xl': '6rem',
+      },
+    },
+    fontFamily: {
+      Inter: ['Inter', "sans-serif"],
+      Manrope: ['Manrope', "sans-serif"],
+    },
+
+    extend: {
+      colors: {
+        "dark": "#ICICIC",
+        "black-light": "#969696",
+      },
+    },
   },
   plugins: [],
 }
