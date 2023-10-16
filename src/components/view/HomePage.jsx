@@ -4,8 +4,7 @@ import AboutUs from '../AllSection/AboutUs'
 import WhyUs from "../AllSection/WhyUs";
 import MyFooter from "../common/MyFooter";
 import HeroSection from "../AllSection/HeroSection";
-import HowWork from '../AllSection/HowWork';
-import Partnership from '../AllSection/Partnership'
+
 const HomePage = () => {
   return (
     <>
@@ -15,6 +14,7 @@ const HomePage = () => {
       <AboutUs />
       <HowWork />
       <WhyUs />
+      <AppToday />
       <MyFooter />
     </>
 
