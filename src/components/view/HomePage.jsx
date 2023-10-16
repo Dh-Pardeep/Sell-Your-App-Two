@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import WhyUs from "../AllSection/WhyUs";
+import MyFooter from "../common/MyFooter";
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
-  )
-}
+    <>
+      <WhyUs />
+      <MyFooter />
+    </>
+  );
+};
 
-export default HomePage
+export default HomePage;
