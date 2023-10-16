@@ -1,8 +1,12 @@
 import React from 'react'
+import HeaderNav from '../common/HeaderNav'
+import HeroSection from '../AllSection/HeroSection'
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <>
+    <HeroSection/>
+    </>
   )
 }
 
