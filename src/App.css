@@ -1,0 +1,32 @@
+/* =========AboutYou Section============= */
+.about_bg {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.04) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    /* backdrop-filter: blur(30px); */
+}
+
+.about_ellipse {
+    background: linear-gradient(93deg, #FF3939 17.47%, #4844F2 74.04%);
+    filter: blur(77.5px);
+}
+
+.submit_btn {
+    background: linear-gradient(102deg, #FF3939 -4.42%, #4844F2 103.64%);
+    transition: all 500ms linear;
+}
+
+.submit_btn:hover {
+    background: var(--prime, linear-gradient(102deg, #FF3939 -4.42%, #4844F2 103.64%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid red;
+}
+
+.about_text {
+    background: var(--prime, linear-gradient(102deg, #FF3939 -4.42%, #4844F2 103.64%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* =========AboutYou Section End============= */
