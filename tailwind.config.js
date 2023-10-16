@@ -12,13 +12,6 @@ export default {
       "lg": "34px",
       "xl": "60px"
     },
-    screens: {
-      'sm': '575.9px',
-      'md': '767.9px',
-      'lg': '991.9px',
-      'xl': '1200px',
-      'xxl': '1400px',
-    },
     container: {
       padding: {
         DEFAULT: '1rem',
