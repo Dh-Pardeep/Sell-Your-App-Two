@@ -1,3 +1,4 @@
+<<<<<<<<< Temporary merge branch 1
 /* hero section on scrolling */
 
 .navbar {
@@ -87,6 +88,7 @@
         cursor: pointer;
     }
 }
+=========
 /* =========AboutYou Section============= */
 .about_bg {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.04) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
@@ -119,3 +121,4 @@
 }
 
 /* =========AboutYou Section End============= */
+>>>>>>>>> Temporary merge branch 2
