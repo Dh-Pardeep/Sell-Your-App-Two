@@ -9,9 +9,9 @@ const HeroSection = () => {
     <section className='bg-Hero-bg rounded-br-[32px] rounded-bl-[32px]  relative overflow-hidden'>
       <div className="absolute w-[399.25px] h-[679.76px] origin-top-left rotate-[26.13deg] bg-indigo-600 bg-opacity-20 blur-[150px]" />
       <div className="absolute right-0 w-[546.90px] h-[878.92px] origin-top-left rotate-[26.13deg] bg-red-500 bg-opacity-20 blur-[407px]" />
-      {/* <HeaderNav /> */}
+      <HeaderNav />
       <div className="container mx-auto">
-        <div>
+        <div className='mt-80'>
           <div className='w-6/12'>
             <div className="max-w-[560px] text-white text-xl font-bold font-Manrope">Selling Mobile Apps Made Simple.</div>
             <div className="w-[547px] opacity-70 text-white text-base font-normal font-['Inter'] leading-[170%] pt-4 pb-[46px]">Looking to sell your mobile app? We buy iOS apps in different categories and revenue levels. We promise 14 days from contact to exit with the best valuation guarantee. Most of our partners are indie developers, studios and companies.</div>
