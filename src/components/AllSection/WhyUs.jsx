@@ -21,11 +21,11 @@ const WhyUs = () => {
             offer and a smooth selling process.
           </p>
         </div>
-        <div className="lg:flex gap-10 xl:gap-[49px]">
+        <div className="lg:flex gap-7 xl:gap-10 2xl:gap-[106px]">
           <div className="flex justify-center">
-            <div className="md:flex gap-10 xl:gap-[49px]">
+            <div className="md:flex gap-7 xl:gap-10 2xl:gap-[106px]">
               <div className="flex justify-center">
-                <div className="sm:flex gap-10 xl:gap-[49px]">
+                <div className="sm:flex gap-7 xl:gap-10 2xl:gap-[106px]">
                   <div className="mt-20">
                     <div className="flex justify-center">
                       <img className="max-w-[133px]" src={great} alt="cash" />
@@ -59,7 +59,7 @@ const WhyUs = () => {
             </div>
           </div>
           <div className="flex justify-center">
-            <div className="sm:flex gap-10 xl:gap-[49px]">
+            <div className="sm:flex gap-7 xl:gap-10 2xl:gap-[106px]">
               <div className="mt-20">
                 <div className="flex justify-center">
                   <img className="max-w-[133px]" src={vibes} alt="cash" />
