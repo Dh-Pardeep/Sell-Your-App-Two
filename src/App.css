@@ -33,12 +33,12 @@
 /* hero section on scrolling */
 
 .navbar {
-	transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .navbar.scrolling {
-	background-color: #2D0820;
-	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    background-color: #2D0820;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -119,6 +119,7 @@
         cursor: pointer;
     }
 }
+
 /* =========AboutYou Section============= */
 .about_bg {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.04) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
@@ -151,3 +152,12 @@
 }
 
 /* =========AboutYou Section End============= */
+
+
+/* =================   How Work=================== */
+.firstDay {
+    background: linear-gradient(102deg, #FF3939 -4.42%, #4844F2 103.64%);
+    background-clip: text !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}   
+  
