@@ -11,14 +11,14 @@ const HeroSection = () => {
       <HeaderNav />
       <div className="container mx-auto">
         <div className='mt-44 sm:mt-52 lg:mt-60 flex flex-col xl:flex-row relative z-20'>
-          <div className='w-full xl:w-6/12 xl:mt-16'>
+          <div className='w-full xl:w-6/12 xl:mt-16' data-aos="fade-right" data-aos-duration="700" data-aos-delay="3000" data-aos-easing="linear">
             <div className="xl:max-w-[560px] text-white text-[35px] sm:text-[40px] md:text-[46px] lg:text-[52px] xl:text-xl font-bold font-Manrope">Selling Mobile Apps Made Simple.</div>
             <div className="xl:max-w-[547px] opacity-70 text-white text-[14px] md:text-base font-normal font-['Inter'] leading-[170%] pt-4 pb-[46px]">Looking to sell your mobile app? We buy iOS apps in different categories and revenue levels. We promise 14 days from contact to exit with the best valuation guarantee. Most of our partners are indie developers, studios and companies.</div>
             <div className=" pb-14 md:pb-[75px] ">
-              <Link className=" text-white text-[14px] md:text-base font-bold font-Manrope leading-[170%] inline-block  px-10 py-4 bg-gradient-to-r from-red-500 to-indigo-600 hover:to-red-500 hover:from-indigo-600 rounded-[38px] transition-all ease-linear duration-300 ">Sell Your App</Link>
+              <Link className=" text-white text-[14px] md:text-base font-bold font-Manrope leading-[170%] inline-block  px-10 py-4 bg-gradient-to-r from-red-500 to-indigo-600 hover:to-red-500 hover:from-indigo-600 rounded-[38px] transition-all ease-linear duration-300 " data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="3000" data-aos-easing="linear">Sell Your App</Link>
             </div>
           </div>
-          <div className='w-full xl:w-6/12 '>
+          <div className='w-full xl:w-6/12 'data-aos="fade-left" data-aos-duration="700" data-aos-delay="3000" data-aos-easing="linear">
             <div className='relative'>
               <div className="p-3 lg:p-[25px] bg-white bg-opacity-5 rounded-2xl border border-white border-opacity-30 backdrop-blur-[51.14px] justify-center items-start gap-[32.73px] inline-flex md:absolute bottom-28 left-[13%] lg:left-[16%] lg:bottom-44 xl:bottom-40 xl:left-[-5%] mb-10  md:mb-0 cursor-pointer">
                 <img className="w-[61.37px] h-[61.37px] rounded-full" src={Hero_A_Svg} />

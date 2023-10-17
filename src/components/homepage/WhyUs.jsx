@@ -10,12 +10,12 @@ const WhyUs = () => {
     <div className="bg-Hero-bg">
       <div className="container mx-auto pt-28">
         <div className="flex justify-center">
-          <h3 className="text-white font-Manrope font-medium text-lg">
+          <h3 className="text-white font-Manrope font-medium text-lg" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300" data-aos-easing="linear">
             Why Us?
           </h3>
         </div>
         <div className="flex justify-center text-center mt-4">
-          <p className="text-white opacity-70 font-Inter font-normal text-sm max-w-[758px]">
+          <p className="text-white opacity-70 font-Inter font-normal text-sm max-w-[758px]" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" data-aos-easing="linear">
             Selling your App business is a big step. You’ve spent a lot of time
             and effort building your app. You deserve to get the best price
             offer and a smooth selling process.
@@ -26,7 +26,7 @@ const WhyUs = () => {
             <div className="md:flex gap-7 xl:gap-10 2xl:gap-[106px]">
               <div className="flex justify-center">
                 <div className="sm:flex gap-7 xl:gap-10 2xl:gap-[106px]">
-                  <div className="mt-20">
+                  <div className="mt-20" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear">
                     <div className="flex justify-center">
                       <img
                         className="max-w-[133px] cursor-pointer"
@@ -39,7 +39,7 @@ const WhyUs = () => {
                     </p>
                   </div>
                   <div className="flex justify-center">
-                    <div className="mt-20">
+                    <div className="mt-20" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear">
                       <div className="flex justify-center">
                         <img
                           className="max-w-[133px] cursor-pointer"
@@ -55,7 +55,7 @@ const WhyUs = () => {
                 </div>
               </div>
               <div className="flex justify-center">
-                <div className="mt-20">
+                <div className="mt-20" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear">
                   <div className="flex justify-center">
                     <img
                       className="max-w-[133px] cursor-pointer"
@@ -72,7 +72,7 @@ const WhyUs = () => {
           </div>
           <div className="flex justify-center">
             <div className="sm:flex gap-7 xl:gap-10 2xl:gap-[106px]">
-              <div className="mt-20">
+              <div className="mt-20" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear">
                 <div className="flex justify-center">
                   <img
                     className="max-w-[133px] cursor-pointer"
@@ -85,7 +85,7 @@ const WhyUs = () => {
                 </p>
               </div>
               <div className="flex justify-center">
-                <div className="mt-20">
+                <div className="mt-20" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear">
                   <div className="flex justify-center">
                     <img
                       className="max-w-[133px] cursor-pointer"
@@ -103,7 +103,7 @@ const WhyUs = () => {
         </div>
         <div className="flex justify-center mt-20 pb-[75px]">
           <div className="px-10 cursor-pointer rounded-[38px] py-4 inline-block bg-gradient-to-r from-red-500 to-indigo-600 hover:from-indigo-800 hover:to-red-700 delay-1000">
-            <button className="text-white font-Manrope font-normal text-sm">
+            <button className="text-white font-Manrope font-normal text-sm " > 
               SellYourApp
             </button>
           </div>

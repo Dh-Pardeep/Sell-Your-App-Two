@@ -13,12 +13,12 @@ const Explore = () => {
   return (
     <div className="bg-Hero-bg pt-14 mt-[-2px]">
       <div className="container mx-auto">
-        <div className="flex justify-center">
+        <div className="flex justify-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear">
           <h3 className="text-white text-lg font-medium font-Manrope">
             Explore Our Apps
           </h3>
         </div>
-        <div className=" flex justify-center mt-4">
+        <div className=" flex justify-center mt-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear">
           <p className="max-w-[807px] opacity-70 text-center text-white text-sm font-normal font-Inter leading-7">
             We always encourage using creativity. Our goal is to build and
             acquire apps that solve people's problems. Our apps are loved and
@@ -26,7 +26,7 @@ const Explore = () => {
           </p>
         </div>
         <div className="lg:flex justify-between gap-x-[52px]">
-          <div className="w-full mt-[100px] overflow-hidden relative rounded-3xl bg-card-2 cursor-pointer ">
+          <div className="w-full mt-[100px] overflow-hidden relative rounded-3xl bg-card-2 cursor-pointer " data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear">
             <img className=" absolute w-full" src={shadow1} alt="shadow" />
             <div className="flex justify-center pt-20">
               <img src={clock} alt="clock" />
@@ -50,7 +50,7 @@ const Explore = () => {
               <img src={unlock} alt="unlock" />
             </div>
           </div>
-          <div className="w-full mt-[100px] overflow-hidden relative rounded-3xl bg-card-2 cursor-pointer">
+          <div className="w-full mt-[100px] overflow-hidden relative rounded-3xl bg-card-2 cursor-pointer" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear">
             <img
               className=" absolute w-full bottom-0"
               src={shadow2}
@@ -80,7 +80,7 @@ const Explore = () => {
           </div>
         </div>
         <div className="lg:flex justify-between gap-x-[52px]">
-          <div className="w-full lg:mt-[54px] overflow-hidden relative mt-[100px] rounded-3xl bg-card-2 cursor-pointer">
+          <div className="w-full lg:mt-[54px] overflow-hidden relative mt-[100px] rounded-3xl bg-card-2 cursor-pointer" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear">
             <img
               className="absolute bottom-0 right-0 w-full"
               src={shadow3}
@@ -109,7 +109,7 @@ const Explore = () => {
               <img src={unlock} alt="unlock" />
             </div>
           </div>
-          <div className="w-full lg:mt-[54px] overflow-hidden relative mt-[100px] rounded-3xl bg-card-2 cursor-pointer">
+          <div className="w-full lg:mt-[54px] overflow-hidden relative mt-[100px] rounded-3xl bg-card-2 cursor-pointer" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear">
             <img className="w-full absolute " src={shadow4} alt="shadow" />
             <div className="flex justify-center pt-20">
               <img src={fuzzy} alt="fuzzy" />
@@ -134,15 +134,15 @@ const Explore = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center mt-[140px]">
+        <div className="flex justify-center mt-[140px]" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear">
           <img src={logo} alt="logo" />
         </div>
-        <div className="flex justify-center mt-[18px]">
+        <div className="flex justify-center mt-[18px]" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600" data-aos-easing="linear">
           <p className="text-sm font-normal font-Inter text-white opacity-70">
             see more in Appstun
           </p>
         </div>
-        <div className="flex justify-center mt-10 pb-[150px]">
+        <div className="flex justify-center mt-10 pb-[150px]" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700" data-aos-easing="linear">
           <div className="px-10 cursor-pointer rounded-[38px] py-4 inline-block bg-gradient-to-r from-red-500 to-indigo-600 hover:from-indigo-700 hover:to-red-600 delay-1000">
             <button className="text-white font-Manrope font-normal text-sm">
               Explore

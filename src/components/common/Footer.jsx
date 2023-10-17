@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="sm:flex lg:justify-start justify-center lg:gap-20 sm:gap-28">
-            <ul className="text-center sm:text-start mt-[90px]">
+            <ul className="text-center sm:text-start lg:mt-[90px] mt-[50px]">
               <li className="text-white font-Inter font-medium text-sm mt-4">
                 Quick Links
               </li>
@@ -57,7 +57,7 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-            <ul className="text-center sm:text-start mt-[90px]  mb-12 llg:mb-0">
+            <ul className="text-center sm:text-start lg:mt-[90px]  mt-[50px] mb-12 lg:mb-0">
               <li className="text-white font-Inter font-medium text-sm mt-4">
                 Information
               </li>
@@ -78,13 +78,13 @@ const Footer = () => {
           <img className="w-full" src={line} alt="line" />
         </div>
         <div className="flex text-center justify-center pb-6">
-          <p className="flex items-center opacity-70 text-white text-sm font-normal font-Inter leading-7">
+          <h6 className="flex items-center opacity-70 text-white text-sm font-normal font-Inter leading-7">
             Copyright
             <span className="mx-1.5">
               <CopyIcon />
             </span>
             Appstun All rights reserved
-          </p>
+          </h6>
         </div>
       </div>
     </div>

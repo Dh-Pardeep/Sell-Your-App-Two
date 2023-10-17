@@ -2,10 +2,10 @@ import React from "react";
 
 const AppToday = () => {
   return (
-    <div className="container mx-auto py-24 ">
+    <div className="container mx-auto pt-28 pb-32 ">
       <div className="lg:flex items-center">
         <div className=" flex justify-center">
-          <div className="lg:max-w-[766px] max-w-[506px] bg-[#dd3b5c] xl:pt-[79px] pt-[26px] pb-7 xl:pe-[82px] px-6  xl:ps-[50px] lg:rounded-l-[30px] lg:rounded-r-[0px] sm:rounded-t-[30px] sm:rounded-none rounded-[30px]">
+          <div className="lg:max-w-[766px] max-w-[506px] bg-[#dd3b5c] xl:pt-[79px] pt-[26px] pb-7 xl:pe-[82px] px-6  xl:ps-[50px] lg:rounded-l-[30px] lg:rounded-r-[0px] sm:rounded-t-[30px] sm:rounded-none rounded-[30px]" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear">
             <h3 className="text-white font-Manrope font-medium text-lg">
               Sell your app today
             </h3>
@@ -21,7 +21,7 @@ const AppToday = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#4f44ec] flex items-center lg:h-[450px] w-full rounded-3xl">
+        <div className="bg-[#4f44ec] flex items-center lg:h-[430px] w-full rounded-3xl" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear">
           <div className="w-full bg-card py-10 px-6">
             <div className="lg:flex gap-6 mb-6">
               <input

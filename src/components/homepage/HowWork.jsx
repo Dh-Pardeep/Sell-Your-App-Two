@@ -15,7 +15,7 @@ const HowWork = () => {
                         <div className='w-[57px] h-[58px] md:w-[68px] md:h-[68px] bg-white rounded-full my_box border absolute top-[50px] lg:left-[30px] '>
                             <div className=" flex flex-col items-center justify-center firstDay"><span className="md:mt-1 text-[15px] md:text-sm font-medium font-Manrope">1st<br /></span><span className=" text-[15px] md:text-sm font-normal  font-Manrope">Day</span></div>
                         </div>
-                        <div className='flex flex-col mt-4 ms-24 sm:ms-32 md:ms-40'>
+                        <div className='flex flex-col mt-4 ms-24 sm:ms-32 md:ms-40' data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" data-aos-easing="linear">
                             <div className="w-16 h-16 p-[13px] bg-gradient-to-r from-red-500 to-indigo-600 rounded-[54px] border  justify-center items-center inline-flex ">
                                 <div className="w-[38px] h-[38px] relative flex-col justify-start items-start flex">
                                     <div className="w-[32.06px] h-[30.58px] relative">
@@ -30,10 +30,10 @@ const HowWork = () => {
                 </div>
                 <div className='flex mt-10 md:mt-14 lg:mt-0'>
                     <div className='w-full lg:w-1/2 flex flex-col lg:items-end  relative before_img_line'>
-                        <div className='w-[57px] h-[58px] md:w-[68px] md:h-[68px] bg-white rounded-full my_box border absolute top-[50px]  lg:right-[30px]'>
+                        <div className='w-[57px] h-[58px] md:w-[68px] md:h-[68px] bg-white rounded-full my_box border absolute top-[50px]  lg:right-[30px]' >
                             <div className=" flex flex-col items-center justify-center firstDay"><span className="md:mt-1 text-[15px] md:text-sm  font-medium font-Manrope">1st<br /></span><span className=" text-sm font-normal  font-Manrope">Day</span></div>
                         </div>
-                        <div className='flex lg:items-end flex-col ms-24 sm:ms-32 md:ms-40 lg:ms-0 lg:me-40'>
+                        <div className='flex lg:items-end flex-col ms-24 sm:ms-32 md:ms-40 lg:ms-0 lg:me-40' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" data-aos-easing="linear">
                             <div className="w-16 h-16 p-[13px] bg-gradient-to-r from-red-500 to-indigo-600 rounded-[54px] border  justify-center items-center inline-flex ">
                                 <div className="w-[38px] h-[38px] relative flex-col justify-start items-start flex">
                                     <div className="w-[32.06px] h-[30.58px] relative">
@@ -50,10 +50,10 @@ const HowWork = () => {
                 <div className='flex mt-10 md:mt-14 lg:mt-0'>
                     <div className='w-1/2 hidden lg:block'></div>
                     <div className='w-full lg:w-1/2 flex flex-col  relative after_img_line_two'>
-                        <div className='w-[57px] h-[58px] md:w-[68px] md:h-[68px] bg-white rounded-full my_box border absolute top-[50px] lg:left-[30px]'>
+                        <div className='w-[57px] h-[58px] md:w-[68px] md:h-[68px] bg-white rounded-full my_box border absolute top-[50px] lg:left-[30px]' >
                             <div className=" flex flex-col items-center justify-center firstDay"><span className="md:mt-1 text-[15px] md:text-sm  font-medium font-Manrope">1st<br /></span><span className=" text-sm font-normal  font-Manrope">Day</span></div>
                         </div>
-                        <div className='flex flex-col ms-24 sm:ms-32 md:ms-40 '>
+                        <div className='flex flex-col ms-24 sm:ms-32 md:ms-40 ' data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600" data-aos-easing="linear">
                             <div className="w-16 h-16 p-[13px] bg-gradient-to-r from-red-500 to-indigo-600 rounded-[54px] border  justify-center items-center inline-flex ">
                                 <div className="w-[38px] h-[38px] relative flex-col justify-start items-start flex">
                                     <div className="w-[32.06px] h-[30.58px] relative">
@@ -68,10 +68,10 @@ const HowWork = () => {
                 </div>
                 <div className='flex mt-10 md:mt-14 lg:mt-0'>
                     <div className='w-full lg:w-1/2 flex flex-col lg:items-end  relative before_img_line_two'>
-                        <div className='w-[57px] h-[58px] md:w-[68px] md:h-[68px] bg-white rounded-full my_box border absolute top-[50px] lg:right-[30px]'>
+                        <div className='w-[57px] h-[58px] md:w-[68px] md:h-[68px] bg-white rounded-full my_box border absolute top-[50px] lg:right-[30px]' >
                             <div className=" flex flex-col items-center justify-center firstDay"><span className="md:mt-1 text-[15px] md:text-sm  font-medium font-Manrope">1st<br /></span><span className=" text-sm font-normal  font-Manrope">Day</span></div>
                         </div>
-                        <div className='flex lg:items-end flex-col ms-24 sm:ms-32 md:ms-40 lg:ms-0  lg:me-40'>
+                        <div className='flex lg:items-end flex-col ms-24 sm:ms-32 md:ms-40 lg:ms-0  lg:me-40' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800" data-aos-easing="linear">
                             <div className="w-16 h-16 p-[13px] bg-gradient-to-r from-red-500 to-indigo-600 rounded-[54px] border  justify-center items-center inline-flex ">
                                 <div className="w-[38px] h-[38px] relative flex-col justify-start items-start flex">
                                     <div className="w-[32.06px] h-[30.58px] relative">
@@ -88,10 +88,10 @@ const HowWork = () => {
                 <div className='flex mt-10 md:mt-14 lg:mt-0'>
                     <div className='w-1/2 hidden lg:block'></div>
                     <div className='w-full  lg:w-1/2 flex flex-col  relative '>
-                    <div className='w-[57px] h-[58px] md:w-[68px] md:h-[68px] bg-white rounded-full my_box border absolute top-[30px] lg:left-[30px]'>
+                        <div className='w-[57px] h-[58px] md:w-[68px] md:h-[68px] bg-white rounded-full my_box border absolute top-[30px] lg:left-[30px]' >
                             <div className=" flex flex-col items-center justify-center firstDay"><span className="md:mt-1 text-[15px] md:text-sm  font-medium font-Manrope">1st<br /></span><span className=" text-sm font-normal  font-Manrope">Day</span></div>
                         </div>
-                        <div className='flex flex-col ms-24 sm:ms-32 md:ms-40'>
+                        <div className='flex flex-col ms-24 sm:ms-32 md:ms-40' data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1000" data-aos-easing="linear">
                             <div className="w-16 h-16 p-[13px] bg-gradient-to-r from-red-500 to-indigo-600 rounded-[54px] border  justify-center items-center inline-flex ">
                                 <div className="w-[38px] h-[38px] relative flex-col justify-start items-start flex">
                                     <div className="w-[32.06px] h-[30.58px] relative">
@@ -104,7 +104,7 @@ const HowWork = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex justify-center pt-10 pb-14 lg:pb-20'><p className='text-center about_text opacity-70 border border-[#FF3939] capitalize text-[17px] md:text-[18px] xl:text-xmd sm:px-[40px] px-1 sm:py-5 py-2 rounded-xl inline-block '>The entire process takes 14 days from contact to closing.</p></div>
+                <div className='flex justify-center pt-10 pb-14 lg:pb-20' data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear"><p className='text-center about_text opacity-70 border border-[#FF3939] capitalize text-[17px] md:text-[18px] xl:text-xmd sm:px-[40px] px-1 sm:py-5 py-2 rounded-xl inline-block '>The entire process takes 14 days from contact to closing.</p></div>
             </div>
         </div>
     )
