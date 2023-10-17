@@ -1,17 +1,19 @@
 import React from 'react'
-import AboutYou from '../AllSection/AboutYou'
-import AboutUs from '../AllSection/AboutUs'
-import WhyUs from "../AllSection/WhyUs";
+import AboutYou from '../homepage/AboutYou'
+import AboutUs from '../homepage/AboutUs'
+import WhyUs from "../homepage/WhyUs";
 import MyFooter from "../common/MyFooter";
-import HeroSection from "../AllSection/HeroSection";
-import HowWork from '../AllSection/HowWork';
-import Partnership from '../AllSection/Partnership'
-import AppToday from "../AllSection/AppToday";
-import Explore from "../AllSection/Explore";
+import HeroSection from "../homepage/HeroSection";
+import HowWork from '../homepage/HowWork';
+import Partnership from '../homepage/Partnership'
+import AppToday from "../homepage/AppToday";
+import Explore from "../homepage/Explore";
+import BackToTop from '../common/BackToTop';
 
 const HomePage = () => {
   return (
     <>
+      <BackToTop />
       <HeroSection />
       <AboutYou />
       <Partnership />

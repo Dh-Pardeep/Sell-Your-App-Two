@@ -34,7 +34,7 @@ const HeaderNav = () => {
     return (
         <>
 
-            <section className='fixed top-0 w-full z-[1000]'>
+            <header className='fixed top-0 w-full z-[1000]'>
                 <nav className={`navbar ${scrolling ? 'scrolling' : ''}`}>
                     <div className='container mx-auto'>
                         <nav className='flex justify-between items-center py-4'>
@@ -61,7 +61,7 @@ const HeaderNav = () => {
                         </nav>
                     </div>
                 </nav>
-            </section>
+            </header>
         </>
     )
 }
