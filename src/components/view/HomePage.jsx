@@ -7,6 +7,7 @@ import HeroSection from "../AllSection/HeroSection";
 import HowWork from '../AllSection/HowWork';
 import Partnership from '../AllSection/Partnership'
 import AppToday from "../AllSection/AppToday";
+import Explore from "../AllSection/Explore";
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
       <AboutUs />
       <HowWork />
       <WhyUs />
+      <Explore />
       <AppToday />
       <MyFooter />
     </>

@@ -9,7 +9,7 @@ const MyFooter = () => {
       <div className="container mx-auto">
         <div className="lg:flex justify-between">
           <div className="flex  justify-center lg:justify-start">
-            <div className=" max-w-[372px] pt-[70px]">
+            <div className=" lg:max-w-[372px] pt-[70px]">
               <div className="flex justify-center lg:justify-start">
                 <img src={logo} alt="logo" />
               </div>
@@ -30,21 +30,21 @@ const MyFooter = () => {
               </div>
             </div>
           </div>
-          <div className="sm:flex justify-center lg:justify-start gap-20">
+          <div className="sm:flex lg:justify-start justify-center lg:gap-20 sm:gap-28">
             <ul className="text-center sm:text-start mt-[90px]">
               <li className="text-white font-Inter font-medium text-sm mt-4">
                 Quick Links
               </li>
-              <li className="opacity-80 text-white font-Inter font-medium text-sm mt-3">
+              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
                 About
               </li>
-              <li className="opacity-80 text-white font-Inter font-medium text-sm mt-3">
+              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
                 App Sale process
               </li>
-              <li className="opacity-80 text-white font-Inter font-medium text-sm mt-3">
+              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
                 Why Us?
               </li>
-              <li className="opacity-80 text-white font-Inter font-medium text-sm mt-3">
+              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
                 Our App
               </li>
             </ul>
@@ -52,10 +52,10 @@ const MyFooter = () => {
               <li className="text-white font-Inter font-medium text-sm mt-4">
                 Information
               </li>
-              <li className="opacity-80 text-white font-Inter font-medium text-sm mt-3">
+              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
                 Contact
               </li>
-              <li className="opacity-80 text-white font-Inter font-medium text-sm mt-3">
+              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
                 support@appstun.com
               </li>
             </ul>
