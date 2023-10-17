@@ -1,12 +1,13 @@
-/* =========AboutYou Section============= */
+/* =========ABOUTYOU============= */
 .about_bg {
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.04) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
-    /* backdrop-filter: blur(30px); */
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.04) 100%), #d3d3d34a 50% / cover no-repeat;
+    box-shadow: 4px 5px 65px 0px rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(30px);
 }
 
 .about_ellipse {
     background: linear-gradient(93deg, #FF3939 17.47%, #4844F2 74.04%);
-    filter: blur(77.5px);
+    filter: blur(55.5px);
 }
 
 .submit_btn {
@@ -29,7 +30,26 @@
     -webkit-text-fill-color: transparent;
 }
 
-/* =========AboutYou Section End============= */
+/* =========ABOUTYOU END============= */
+/* =======PARTNERSHIP============== */
+.partnership_box {
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(20px);
+    transition: all 500ms linear;
+}
+
+.partnership_box:hover .partnership_ellipse {
+    display: block;
+}
+
+.partnership_ellipse {
+    border-radius: 137px;
+    opacity: 0.4;
+    background: linear-gradient(93deg, #FF3939 17.47%, #4844F2 74.04%);
+    filter: blur(30px);
+}
+
+/* =======PARTNERSHIP END============== */
 /* hero section on scrolling */
 
 .navbar {
@@ -276,4 +296,5 @@
         z-index: -1;
         transform: rotate(61deg);
     }
+}
 }

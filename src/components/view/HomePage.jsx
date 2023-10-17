@@ -24,10 +24,8 @@ const HomePage = () => {
       <AppToday />
       <MyFooter />
     </>
+  )}
 
-
-  )
-}
 
 
 

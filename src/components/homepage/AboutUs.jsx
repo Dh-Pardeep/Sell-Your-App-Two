@@ -4,7 +4,7 @@ import about_vector from '../../assets/img/png/about_us_vector.png'
 
 const AboutUs = () => {
     return (
-        <section className='bg-Hero-bg pt-10 lg:pt-[100px] lg:pb-[113px] pb-10 relative overflow-hidden'>
+        <div className='bg-Hero-bg  sm:py-10 py-6 lg:pt-[100px] lg:pb-[113px] relative overflow-hidden'>
             <img className='absolute bottom-[-18%] left-[0]' src={about_vector} alt="shadow" />
             <div className='container mx-auto'>
                 <div className='w-full flex flex-col lg:flex-row'>
@@ -17,20 +17,20 @@ const AboutUs = () => {
                         <button className='leading-[174%] font-Manrope font-bold text-[15px] lg:text-sm text-white py-[15px] px-[43px] rounded-[38px] submit_btn border border-[transparent]'>Sell Your App</button>
                     </div>
                     <div className='w-full lg:w-6/12 flex flex-col lg:items-end items-center'>
-                        <div className='sm:w-[395px] mb-5 rounded-[12px] border border-[#FF3939] ps-6 pe-10 py-5 bg-[rgba(255_255_255_0.04)] inline-block relative'>
-                            <span className='absolute top-[0] left-[50%] translate-x-[-50%]'><Transparency /></span>
+                        <div className='z-[1] sm:w-[395px] mb-5 rounded-[12px] border border-[rgb(51_23_63)] ps-6 pe-10 py-5 bg-[rgba(255_255_255_0.04)] inline-block relative'>
+                            <span className='absolute top-[0] left-[50%] translate-x-[-50%] z-[-1]'><Transparency /></span>
                             <span><Check /></span>
                             <h3 className='mt-6 font-Manrope text-[20px] lg-[22px] xl:text-md font-medium text-white mb-1'>Transparency</h3>
                             <p className='mb-0 leading-[170%] font-Inter text-[15px] lg:text-sm font-normal text-white opacity-70'>We value transparency. You can ask any <span className='md:block'> question and have a call with us any time </span> during the sales process.</p>
                         </div>
-                        <div className='relative w-full sm:w-[395px] mb-5 rounded-[12px] border border-[#FF3939] ps-6 pe-10 py-5 bg-[rgba(255_255_255_0.04)] inline-block'>
-                            <span className='absolute top-[0] left-[50%] translate-x-[-50%]'><Highest /></span>
+                        <div className='z-[1] relative w-full sm:w-[395px] mb-5 rounded-[12px] border border-[rgb(51_23_63)] ps-6 pe-10 py-5 bg-[rgba(255_255_255_0.04)] inline-block'>
+                            <span className='absolute top-[0] left-[50%] translate-x-[-50%] z-[-1]'><Highest /></span>
                             <span><Check /></span>
                             <h3 className='mt-6 font-Manrope text-[20px] lg-[22px] xl:text-md font-medium text-white mb-1'>Highest price guarantee</h3>
                             <p className='mb-0 leading-[170%] font-Inter text-[15px] lg:text-sm font-normal text-white opacity-70'>We promise to give you the best offer for<span className='md:block'> your mobile app. </span></p>
                         </div>
-                        <div className='relative sm:w-[395px] rounded-[12px] border border-[#FF3939] ps-6 pe-10 py-5 bg-[rgba(255_255_255_0.04)] inline-block'>
-                            <span className='absolute top-[0] left-[50%] translate-x-[-50%]'><Safe /></span>
+                        <div className='z-[1] relative sm:w-[395px] rounded-[12px] border border-[rgb(51_23_63)] ps-6 pe-10 py-5 bg-[rgba(255_255_255_0.04)] inline-block'>
+                            <span className='absolute top-[0] left-[50%] translate-x-[-50%] z-[-1]'><Safe /></span>
                             <span><Check /></span>
                             <h3 className='mt-6 font-Manrope text-[20px] lg-[22px] xl:text-md font-medium text-white mb-1'>Safe Process</h3>
                             <p className='mb-0 leading-[170%] font-Inter text-[15px] lg:text-sm font-normal text-white opacity-70'>We partner with escrow.com, the biggest and <span className='md:block'>  most trusted escrow platform in the world. </span></p>
@@ -38,7 +38,7 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 
