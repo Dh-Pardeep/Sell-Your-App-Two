@@ -17,6 +17,7 @@ const HomePage = () => {
       <HeroSection />
       <AboutYou />
       <Partnership />
+      <AboutYou/>
       <AboutUs />
       <HowWork />
       <WhyUs />
