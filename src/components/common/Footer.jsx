@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../../assets/img/webp/logo.webp";
 import line from "../../assets/img/webp/line.webp";
 import { BolIcon, CopyIcon, InstagramIcon, MessageIcon } from "./Icon";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -35,28 +36,40 @@ const Footer = () => {
               <li className="text-white font-Inter font-medium text-sm mt-4">
                 Quick Links
               </li>
-              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
-                About
+              <li>
+                <Link className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3 inline-block  relative after:content-[''] after:w-0 after:h-[2px] after:transition-all after:ease-in-out after:duration-300 after:bg-white after:absolute after:-bottom-[2px] hover:after:left-0 hover:after:w-full after:left-[50%]">
+                  About
+                </Link>
               </li>
-              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
+              <li>
+                <Link className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3 inline-block  relative after:content-[''] after:w-0 after:h-[2px] after:transition-all after:ease-in-out after:duration-300 after:bg-white after:absolute after:-bottom-[2px] hover:after:left-0 hover:after:w-full after:left-[50%]">
                 App Sale process
+                </Link>
               </li>
-              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
+              <li>
+                <Link className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3 inline-block  relative after:content-[''] after:w-0 after:h-[2px] after:transition-all after:ease-in-out after:duration-300 after:bg-white after:absolute after:-bottom-[2px] hover:after:left-0 hover:after:w-full after:left-[50%]">
                 Why Us?
+                </Link>
               </li>
-              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
-                Our App
+              <li>
+                <Link className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3 inline-block  relative after:content-[''] after:w-0 after:h-[2px] after:transition-all after:ease-in-out after:duration-300 after:bg-white after:absolute after:-bottom-[2px] hover:after:left-0 hover:after:w-full after:left-[50%]">
+                Our App 
+                </Link>
               </li>
             </ul>
             <ul className="text-center sm:text-start mt-[90px]  mb-12 llg:mb-0">
               <li className="text-white font-Inter font-medium text-sm mt-4">
                 Information
               </li>
-              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
+              <li>
+                <Link className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3 inline-block  relative after:content-[''] after:w-0 after:h-[2px] after:transition-all after:ease-in-out after:duration-300 after:bg-white after:absolute after:-bottom-[2px] hover:after:left-0 hover:after:w-full after:left-[50%]">
                 Contact
+                </Link>
               </li>
-              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
+              <li>
+                <Link className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3 inline-block  relative after:content-[''] after:w-0 after:h-[2px] after:transition-all after:ease-in-out after:duration-300 after:bg-white after:absolute after:-bottom-[2px] hover:after:left-0 hover:after:w-full after:left-[50%]">
                 support@appstun.com
+                </Link>
               </li>
             </ul>
           </div>
