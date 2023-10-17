@@ -28,7 +28,11 @@ const WhyUs = () => {
                 <div className="sm:flex gap-7 xl:gap-10 2xl:gap-[106px]">
                   <div className="mt-20">
                     <div className="flex justify-center">
-                      <img className="max-w-[133px]" src={great} alt="cash" />
+                      <img
+                        className="max-w-[133px] cursor-pointer"
+                        src={great}
+                        alt="cash"
+                      />
                     </div>
                     <p className="text-center mt-5 opacity-70 text-white font-Inter font-normal text-sm max-w-[220px]">
                       We guarantee 14 days from contact to exit
@@ -37,7 +41,11 @@ const WhyUs = () => {
                   <div className="flex justify-center">
                     <div className="mt-20">
                       <div className="flex justify-center">
-                        <img className="max-w-[133px]" src={cash} alt="cash" />
+                        <img
+                          className="max-w-[133px] cursor-pointer"
+                          src={cash}
+                          alt="cash"
+                        />
                       </div>
                       <p className="text-center mt-5 opacity-70 text-white font-Inter font-normal text-sm max-w-[189px]">
                         Full cash offer, get paid immediately
@@ -49,7 +57,11 @@ const WhyUs = () => {
               <div className="flex justify-center">
                 <div className="mt-20">
                   <div className="flex justify-center">
-                    <img className="max-w-[133px]" src={price} alt="cash" />
+                    <img
+                      className="max-w-[133px] cursor-pointer"
+                      src={price}
+                      alt="cash"
+                    />
                   </div>
                   <p className="text-center mt-5 opacity-70 text-white font-Inter font-normal text-sm max-w-[153px]">
                     Best price/valuation guarantee
@@ -62,7 +74,11 @@ const WhyUs = () => {
             <div className="sm:flex gap-7 xl:gap-10 2xl:gap-[106px]">
               <div className="mt-20">
                 <div className="flex justify-center">
-                  <img className="max-w-[133px]" src={vibes} alt="cash" />
+                  <img
+                    className="max-w-[133px] cursor-pointer"
+                    src={vibes}
+                    alt="cash"
+                  />
                 </div>
                 <p className="text-center mt-5 opacity-70 text-white font-Inter font-normal text-sm max-w-[203px]">
                   Good vibes only. We value human connections.
@@ -71,7 +87,11 @@ const WhyUs = () => {
               <div className="flex justify-center">
                 <div className="mt-20">
                   <div className="flex justify-center">
-                    <img className="max-w-[133px]" src={process} alt="cash" />
+                    <img
+                      className="max-w-[133px] cursor-pointer"
+                      src={process}
+                      alt="cash"
+                    />
                   </div>
                   <p className="text-center mt-5 opacity-70 text-white font-Inter font-normal text-sm max-w-[158px]">
                     Simple process, zero complexity
