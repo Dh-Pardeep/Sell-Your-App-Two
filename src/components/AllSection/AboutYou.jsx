@@ -15,13 +15,13 @@ const AboutYou = () => {
                             <input required className='leading-[170%] px-2 w-full text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[#969696]' type="text" placeholder='Your Email' />
                         </div>
                         <div className='flex sm:gap-6 gap-3 sm:mb-6 mb-3 flex-col sm:flex-row'>
-                            <input required className='leading-[170%] px-2 w-full text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[#969696]' type="text" placeholder='Revenue Last Month' />
-                            <input className='leading-[170%] px-2 w-full text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[#969696]' type="text" placeholder='Download Last Month' />
+                            <input required className='leading-[170%] px-2 w-full text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[#969696]' type="text" placeholder='Revenue Last Month' />
+                            <input className='leading-[170%] px-2 w-full text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[#969696]' type="text" placeholder='Download Last Month' />
                         </div>
-                        <input required className='leading-[170%] px-2 w-full sm:mb-6 mb-3 text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[#969696]' type="text" placeholder='App URL...' />
-                        <textarea className='leading-[170%] px-2 w-full height-[74px] text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[#969696]' type="text" placeholder='Anything else you’d like us to know...' />
+                        <input required className='leading-[170%] px-2 w-full sm:mb-6 mb-3 text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[#969696]' type="text" placeholder='App URL...' />
+                        <textarea className='leading-[170%] px-2 w-full height-[74px] text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[#969696]' type="text" placeholder='Anything else you’d like us to know...' />
                     </div>
-                    <div className='flex justify-center sm:mb-[44px] mb-4'><button className='leading-[174%] font-Manrope font-bold text-[15px] lg:text-sm text-white py-[15px] px-[43px] leading-[170%] rounded-[38px] submit_btn border border-[transparent]'>Submit Now</button></div>
+                    <div className='flex justify-center sm:mb-[44px] mb-4'><button className='font-Manrope font-bold text-[15px] lg:text-sm text-white py-[15px] px-[43px] leading-[170%] rounded-[38px] submit_btn border border-[transparent]'>Submit Now</button></div>
                     <div className='flex justify-center sm:pb-0 pb-3'><p className='text-center about_text opacity-70 border border-[#FF3939] capitalize text-[17px] md:text-[18px] xl:text-xmd sm:px-[40px] px-1 sm:py-5 py-2 rounded-xl inline-block'>We guarantee to give you an offer within 48 hours</p></div>
                 </div>
             </div>
