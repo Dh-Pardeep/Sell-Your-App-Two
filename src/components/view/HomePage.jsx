@@ -4,12 +4,14 @@ import MyFooter from "../common/MyFooter";
 import HeaderNav from "../common/HeaderNav";
 import HeroSection from "../AllSection/HeroSection";
 import AppToday from "../AllSection/AppToday";
+import Explore from "../AllSection/Explore";
 
 const HomePage = () => {
   return (
     <>
-      <HeroSection />
+      {/* <HeroSection /> */}
       <WhyUs />
+      <Explore />
       <AppToday />
       <MyFooter />
     </>

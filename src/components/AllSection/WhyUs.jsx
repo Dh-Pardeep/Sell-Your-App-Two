@@ -7,7 +7,7 @@ import vibes from "../../assets/img/webp/vibes.webp";
 
 const WhyUs = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-Hero-bg">
       <div className="container mx-auto pt-28">
         <div className="flex justify-center">
           <h3 className="text-white font-Manrope font-medium text-lg">
@@ -15,7 +15,7 @@ const WhyUs = () => {
           </h3>
         </div>
         <div className="flex justify-center text-center mt-4">
-          <p className="text-dark-gray font-Inter font-normal text-sm max-w-[758px]">
+          <p className="text-white opacity-70 font-Inter font-normal text-sm max-w-[758px]">
             Selling your App business is a big step. You’ve spent a lot of time
             and effort building your app. You deserve to get the best price
             offer and a smooth selling process.
