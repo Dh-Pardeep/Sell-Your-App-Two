@@ -4,7 +4,7 @@ import about_vector from '../../assets/img/png/about_us_vector.png'
 
 const AboutUs = () => {
     return (
-        <section className='bg-Hero-bg pt-10 lg:pt-[100px] lg:pb-[113px] pb-10 relative overflow-hidden'>
+        <section className='bg-Hero-bg  sm:py-10 py-6 lg:pt-[100px] lg:pb-[113px] relative overflow-hidden'>
             <img className='absolute bottom-[-18%] left-[0]' src={about_vector} alt="shadow" />
             <div className='container mx-auto'>
                 <div className='w-full flex flex-col lg:flex-row'>
