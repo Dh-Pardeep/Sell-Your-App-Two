@@ -26,7 +26,7 @@ const Explore = () => {
           </p>
         </div>
         <div className="lg:flex justify-between gap-x-[52px]">
-          <div className="w-full mt-[100px] overflow-hidden relative rounded-3xl bg-card-2 ">
+          <div className="w-full mt-[100px] overflow-hidden relative rounded-3xl bg-card-2 cursor-pointer ">
             <img className=" absolute w-full" src={shadow1} alt="shadow" />
             <div className="flex justify-center pt-20">
               <img src={clock} alt="clock" />
@@ -50,7 +50,7 @@ const Explore = () => {
               <img src={unlock} alt="unlock" />
             </div>
           </div>
-          <div className="w-full mt-[100px] overflow-hidden relative rounded-3xl bg-card-2">
+          <div className="w-full mt-[100px] overflow-hidden relative rounded-3xl bg-card-2 cursor-pointer">
             <img
               className=" absolute w-full bottom-0"
               src={shadow2}
@@ -80,7 +80,7 @@ const Explore = () => {
           </div>
         </div>
         <div className="lg:flex justify-between gap-x-[52px]">
-          <div className="w-full lg:mt-[54px] overflow-hidden relative mt-[100px] rounded-3xl bg-card-2">
+          <div className="w-full lg:mt-[54px] overflow-hidden relative mt-[100px] rounded-3xl bg-card-2 cursor-pointer">
             <img
               className="absolute bottom-0 right-0 w-full"
               src={shadow3}
@@ -109,7 +109,7 @@ const Explore = () => {
               <img src={unlock} alt="unlock" />
             </div>
           </div>
-          <div className="w-full lg:mt-[54px] overflow-hidden relative mt-[100px] rounded-3xl bg-card-2">
+          <div className="w-full lg:mt-[54px] overflow-hidden relative mt-[100px] rounded-3xl bg-card-2 cursor-pointer">
             <img className="w-full absolute " src={shadow4} alt="shadow" />
             <div className="flex justify-center pt-20">
               <img src={fuzzy} alt="fuzzy" />
