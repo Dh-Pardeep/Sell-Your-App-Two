@@ -251,6 +251,24 @@
         transform: translateY(0px);
     }
 }
+.animation_preloader {
+    animation: Preloader_scale infinite 3.2s;
+    transition: all 3s linear;
+}
+
+@keyframes Preloader_scale {
+    0% {
+      transform: scale(0);
+    }
+
+    50% {
+      transform: scale(2);
+    }
+
+    100% {
+      transform: scale(0);
+    }
+}
 
 
 
@@ -297,4 +315,4 @@
         transform: rotate(61deg);
     }
 }
-}
+

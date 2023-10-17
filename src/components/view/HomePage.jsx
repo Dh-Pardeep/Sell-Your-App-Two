@@ -9,22 +9,26 @@ import Partnership from '../homepage/Partnership'
 import AppToday from "../homepage/AppToday";
 import Explore from "../homepage/Explore";
 import BackToTop from '../common/BackToTop';
+import LoaderHome from '../common/LoaderHome';
 
 const HomePage = () => {
   return (
     <>
       <BackToTop />
+      <LoaderHome/>
       <HeroSection />
       <AboutYou />
-      <Partnership />
       <AboutUs />
       <HowWork />
+      <Partnership />
+      <AboutYou />
       <WhyUs />
       <Explore />
       <AppToday />
       <MyFooter />
     </>
-  )}
+  )
+}
 
 
 
