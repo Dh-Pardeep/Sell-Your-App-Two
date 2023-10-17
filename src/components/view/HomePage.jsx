@@ -1,21 +1,23 @@
-import React from 'react'
-import AboutYou from '../homepage/AboutYou'
-import AboutUs from '../homepage/AboutUs'
+import React from "react";
+import AboutYou from "../homepage/AboutYou";
+import AboutUs from "../homepage/AboutUs";
 import WhyUs from "../homepage/WhyUs";
 import HeroSection from "../homepage/HeroSection";
-import HowWork from '../homepage/HowWork';
-import Partnership from '../homepage/Partnership'
+import HowWork from "../homepage/HowWork";
+import Partnership from "../homepage/Partnership";
 import AppToday from "../homepage/AppToday";
 import Explore from "../homepage/Explore";
 import BackToTop from '../common/BackToTop';
 import LoaderHome from '../common/LoaderHome';
+import BackToTop from "../common/BackToTop";
+import LoaderHome from "../common/LoaderHome";
 import Footer from "../common/Footer";
 
 const HomePage = () => {
   return (
     <>
       <BackToTop />
-      <LoaderHome/>
+      <LoaderHome />
       <HeroSection />
       <AboutYou />
       <AboutUs />
@@ -27,10 +29,7 @@ const HomePage = () => {
       <AppToday />
       <Footer />
     </>
-  )
-}
-
-
-
+  );
+};
 
 export default HomePage;
