@@ -1,4 +1,4 @@
-export const InstagrIcon = () => {
+export const InstagramIcon = () => {
   return (
     <svg
       className="cursor-pointer"

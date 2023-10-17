@@ -1,9 +1,9 @@
 import React from "react";
 import logo from "../../assets/img/webp/logo.webp";
 import line from "../../assets/img/webp/line.webp";
-import { BolIcon, CopyIcon, InstagrIcon, MessageIcon } from "./Icon";
+import { BolIcon, CopyIcon, InstagramIcon, MessageIcon } from "./Icon";
 
-const MyFooter = () => {
+const Footer = () => {
   return (
     <div className="bg-black rounded-tl-[60px] rounded-tr-[60px]">
       <div className="container mx-auto">
@@ -19,7 +19,7 @@ const MyFooter = () => {
               </p>
               <div className="flex justify-center lg:justify-start gap-5 mt-[26px]">
                 <div className="hover:translate-y-[-7px] duration-300">
-                  <InstagrIcon />
+                  <InstagramIcon />
                 </div>
                 <div className="hover:translate-y-[-7px] duration-300">
                   <MessageIcon />
@@ -78,4 +78,4 @@ const MyFooter = () => {
   );
 };
 
-export default MyFooter;
+export default Footer;

@@ -72,15 +72,18 @@
 
 /* Explore section */
 .bg-card {
+.bg-card-2{
     border-radius: 24px;
     border: 1px solid rgba(255, 255, 255, 0.14);
-
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 3.73%, rgba(255, 255, 255, 0.00) 100%);
-
     box-shadow: 0px 0px 40px 0px rgba(72, 68, 242, 0.04), 0px 0px 32px 0px rgba(72, 68, 242, 0.04) inset, 0px 0px 32px 0px rgba(255, 57, 57, 0.04) inset;
     backdrop-filter: blur(20px);
 }
 
+    backdrop-filter: blur(20px);}
+    .bg-card-2:hover{
+        box-shadow:0px 0px 25px #281d3a;
+    }
 /* hero section  */
 .Sell_bg {
     background: linear-gradient(102deg, #FF3939 -4.42%, #4844F2 103.64%);
