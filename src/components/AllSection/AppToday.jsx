@@ -25,13 +25,13 @@ const AppToday = () => {
           <div className="w-full bg-card py-10 px-6">
             <div className="lg:flex gap-6 mb-6">
               <input
-                className=" px-2 w-full text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[#969696]"
+                className=" px-2 w-full text-xsm lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[#969696]"
                 type="text"
                 placeholder="Your Name"
               />
               <input
                 required
-                className=" px-2 w-full text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[#969696] lg:mt-0 mt-6"
+                className=" px-2 w-full text-xsm lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[#969696] lg:mt-0 mt-6"
                 type="text"
                 placeholder="Your Email"
               />
@@ -39,24 +39,24 @@ const AppToday = () => {
             <div className="lg:flex gap-6 mb-6 flex-col sm:flex-row">
               <input
                 required
-                className=" px-2 w-full text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[#969696]"
+                className=" px-2 w-full text-xsm lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[#969696]"
                 type="text"
                 placeholder="Revenue Last Month"
               />
               <input
-                className=" px-2 w-full text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[#969696] lg:mt-0 mt-6"
+                className=" px-2 w-full text-xsm lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[#969696] lg:mt-0 mt-6"
                 type="text"
                 placeholder="Download Last Month"
               />
             </div>
             <input
               required
-              className=" px-2 w-full  mb-6 text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[#969696]"
+              className=" px-2 w-full  mb-6 text-xsm lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[#969696]"
               type="text"
               placeholder="App URL..."
             />
             <textarea
-              className=" px-2 w-full height-[74px] text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[#969696]"
+              className=" px-2 w-full height-[74px] text-xsm lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[#969696]"
               type="text"
               placeholder="Anything else you’d like us to know..."
             />

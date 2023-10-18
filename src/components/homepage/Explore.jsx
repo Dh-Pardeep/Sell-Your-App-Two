@@ -11,24 +11,28 @@ import shadow3 from "../../assets/img/webp/card-shadow-3.webp";
 import shadow4 from "../../assets/img/webp/card-shadow-4.webp";
 const Explore = () => {
   return (
-    <div className="bg-Hero-bg pt-14 mt-[-2px]">
-      <div className="container mx-auto">
-        <div className="flex justify-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear">
+    <div className="bg-Hero-bg py-14 md:py-20 lg:pb-14 mt-[-2px]">
+      <div className="container xl:w-[1140px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 ">
+        <div className="flex justify-center">
           <h3 className="text-white text-lg font-medium font-Manrope">
             Explore Our Apps
           </h3>
         </div>
-        <div className=" flex justify-center mt-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear">
+        <div className=" flex justify-center mt-4">
           <p className="max-w-[807px] opacity-70 text-center text-white text-sm font-normal font-Inter leading-7">
             We always encourage using creativity. Our goal is to build and
             acquire apps that solve people's problems. Our apps are loved and
             used by millions of people in every corner of the world.
           </p>
         </div>
-        <div className="lg:flex justify-between gap-x-[52px]">
-          <div className="w-full mt-[100px] overflow-hidden relative rounded-3xl bg-card-2 cursor-pointer " data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear">
-            <img className=" absolute w-full" src={shadow1} alt="shadow" />
-            <div className="flex justify-center pt-20">
+        <div className="lg:flex justify-center gap-x-[52px]">
+          <div className="max-w-[500px] border border-[#3c2c47] px-4 w-full mt-[100px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
+            <img
+              className=" absolute w-full top-0 left-0"
+              src={shadow1}
+              alt="shadow"
+            />
+            <div className="flex justify-center pt-10 lg:pt-20">
               <img src={clock} alt="clock" />
             </div>
             <div className="flex text-center justify-center mt-10">
@@ -50,13 +54,13 @@ const Explore = () => {
               <img src={unlock} alt="unlock" />
             </div>
           </div>
-          <div className="w-full mt-[100px] overflow-hidden relative rounded-3xl bg-card-2 cursor-pointer" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear">
+          <div className="max-w-[500px] border border-[#3c2c47] px-4 w-full lg:mt-[100px] mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
             <img
-              className=" absolute w-full bottom-0"
+              className=" absolute w-full bottom-0 left-0"
               src={shadow2}
               alt="shadow2"
             />
-            <div className="flex justify-center pt-20">
+            <div className="flex justify-center pt-10 lg:pt-20">
               <img src={phone} alt="phone" />
             </div>
             <div className="flex text-center justify-center mt-10">
@@ -79,14 +83,14 @@ const Explore = () => {
             </div>
           </div>
         </div>
-        <div className="lg:flex justify-between gap-x-[52px]">
-          <div className="w-full lg:mt-[54px] overflow-hidden relative mt-[100px] rounded-3xl bg-card-2 cursor-pointer" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear">
+        <div className="lg:flex justify-center gap-x-[52px]">
+          <div className="max-w-[500px] border border-[#3c2c47] px-4 w-full mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
             <img
               className="absolute bottom-0 right-0 w-full"
               src={shadow3}
               alt=""
             />
-            <div className="flex justify-center pt-20">
+            <div className="flex justify-center pt-10 lg:pt-20">
               <img src={bag} alt="bag" />
             </div>
             <div className="flex text-center justify-center mt-10">
@@ -109,9 +113,13 @@ const Explore = () => {
               <img src={unlock} alt="unlock" />
             </div>
           </div>
-          <div className="w-full lg:mt-[54px] overflow-hidden relative mt-[100px] rounded-3xl bg-card-2 cursor-pointer" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear">
-            <img className="w-full absolute " src={shadow4} alt="shadow" />
-            <div className="flex justify-center pt-20">
+          <div className="max-w-[500px] border border-[#3c2c47] px-4 w-full mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
+            <img
+              className="w-full absolute top-0 left-0"
+              src={shadow4}
+              alt="shadow"
+            />
+            <div className="flex justify-center pt-10 lg:pt-20">
               <img src={fuzzy} alt="fuzzy" />
             </div>
             <div className="flex text-center justify-center mt-10">
@@ -134,17 +142,17 @@ const Explore = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center mt-[140px]" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="linear">
+        <div className="flex justify-center mt-[140px]">
           <img src={logo} alt="logo" />
         </div>
-        <div className="flex justify-center mt-[18px]" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600" data-aos-easing="linear">
+        <div className="flex justify-center mt-[18px]">
           <p className="text-sm font-normal font-Inter text-white opacity-70">
             see more in Appstun
           </p>
         </div>
-        <div className="flex justify-center mt-10 pb-[150px]" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700" data-aos-easing="linear">
+        <div className="flex justify-center mt-10 lg:pb-[100px]">
           <div className="px-10 cursor-pointer rounded-[38px] py-4 inline-block bg-gradient-to-r from-red-500 to-indigo-600 hover:from-indigo-700 hover:to-red-600 delay-1000">
-            <button className="text-white font-Manrope font-normal text-sm">
+            <button className="text-white font-Manrope font-bold text-sm">
               Explore
             </button>
           </div>
