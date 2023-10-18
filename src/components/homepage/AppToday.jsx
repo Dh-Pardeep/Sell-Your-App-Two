@@ -2,14 +2,14 @@ import React from "react";
 
 const AppToday = () => {
   return (
-    <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 lg:py-24 py-14 ">
+    <div className="container mx-auto py-24 ">
       <div className="lg:flex items-center">
         <div className=" flex justify-center">
-          <div className="lg:max-w-[766px] sm:mb-0 mb-12 max-w-[506px] bg-[#dd3b5c] xl:pt-16 pt-[26px] lg:pb-7 pb-10 xl:pe-[82px] px-6  xl:ps-[50px] lg:rounded-l-[30px] lg:rounded-r-[0px] sm:rounded-t-[30px] sm:rounded-none rounded-[30px]">
-            <h3 className="text-white lg:text-start text-center font-Manrope font-medium sm:text-lg text-md">
+          <div className="lg:max-w-[766px] max-w-[506px] bg-[#dd3b5c] xl:pt-[79px] pt-[26px] pb-7 xl:pe-[82px] px-6  xl:ps-[50px] lg:rounded-l-[30px] lg:rounded-r-[0px] sm:rounded-t-[30px] sm:rounded-none rounded-[30px]">
+            <h3 className="text-white font-Manrope font-medium text-lg">
               Sell your app today
             </h3>
-            <p className="opacity-70 lg:text-start text-center text-white font-Inter text-sm leading-7 font-normal mt-4">
+            <p className="opacity-70 text-white font-Inter text-sm font-normal mt-4">
               If you have a non-gaming ios app with 5000+ monthly downloads and
               it's been on the App Store for more than a year, we're interested
               in buying it!
@@ -24,7 +24,7 @@ const AppToday = () => {
           </div>
         </div>
         <div className="bg-[#4f44ec] flex items-center lg:h-[450px] w-full rounded-3xl">
-          <div className="w-full bg-card border border-[#e0defb] py-10 px-6">
+          <div className="w-full bg-card py-10 px-6">
             <div className="lg:flex gap-6 mb-6">
               <input
                 className=" px-2 w-full outline-none text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border-[1.4px] border-[rgba(39, 39, 39, 0.08)]"
