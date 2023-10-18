@@ -51,7 +51,7 @@ const Explore = () => {
               </p>
             </div>
             <div className="flex justify-center mt-10 pb-12">
-              <img  src={unlock} alt="unlock" />
+              <img className="unlock_bg px-5 py-4" src={unlock} alt="unlock" />
             </div>
           </div>
           <div className="max-w-[500px] border border-[#3c2c47] px-4 w-full lg:mt-[100px] mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
@@ -79,7 +79,7 @@ const Explore = () => {
               </p>
             </div>
             <div className="flex justify-center mt-10 pb-12">
-              <img src={unlock} alt="unlock" />
+              <img className="unlock_bg px-5 py-4" src={unlock} alt="unlock" />
             </div>
           </div>
         </div>
@@ -110,7 +110,7 @@ const Explore = () => {
               </p>
             </div>
             <div className="flex justify-center mt-10 pb-12">
-              <img src={unlock} alt="unlock" />
+              <img className="unlock_bg px-5 py-4" src={unlock} alt="unlock" />
             </div>
           </div>
           <div className="max-w-[500px] border border-[#3c2c47] px-4 w-full mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
@@ -138,12 +138,12 @@ const Explore = () => {
               </p>
             </div>
             <div className="flex justify-center mt-10 pb-12">
-              <img src={unlock} alt="unlock" />
+              <img className="unlock_bg px-5 py-4" src={unlock} alt="unlock" />
             </div>
           </div>
         </div>
         <div className="flex justify-center mt-[140px]" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
-          <img src={logo} alt="logo" />
+          <img className="max-h-[240px]" src={logo} alt="logo" />
         </div>
         <div className="flex justify-center mt-[18px]" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
           <p className="text-sm font-normal font-Inter text-white opacity-70">

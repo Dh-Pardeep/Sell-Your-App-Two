@@ -7,9 +7,11 @@
 
 .about_ellipse {
     background: linear-gradient(93deg, #FF3939 17.47%, #4844F2 74.04%);
-    filter: blur(55.5px);
+    
 }
-
+.about_us_bg_shadow{
+    background: linear-gradient(102deg, #FF3939 -4.42%, #4844F2 103.64%);
+}
 .about_text {
     background: var(--prime, linear-gradient(102deg, #FF3939 -4.42%, #4844F2 103.64%));
     background-clip: text;
@@ -92,7 +94,12 @@
     cursor: pointer;
 }
 
-
+.unlock_bg{
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(20px);
+}
 .bg-card-2:hover {
     box-shadow: 0px 0px 25px #281d3a;
 }
@@ -173,7 +180,7 @@
 .Full_line::after {
     content: "";
     position: absolute;
-    height: 72%;
+    height: 63%;
     width: 3px;
     top: 90px;
     left: 26px;
@@ -282,8 +289,8 @@
 
     .after_img_line_two::after {
         content: url("./assets/img/png/How_Work_Bg.png");
-        top: 113px;
-        left: -66px;
+        top: 105px;
+        left: -65px;
         width: 35px;
         height: 10px;
         position: absolute;
@@ -292,12 +299,13 @@
 
     .before_img_line::before {
         content: url("./assets/img/png/How_Work_Bg_line.png");
-        top: 84px;
+        top: 79px;
         right: 13px;
         width: 50px;
         height: 10px;
         z-index: -1;
         position: absolute;
+        transform: rotate(4deg);
 
     }
 
