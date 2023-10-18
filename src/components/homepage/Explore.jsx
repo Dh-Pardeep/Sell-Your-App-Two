@@ -25,7 +25,7 @@ const Explore = () => {
             used by millions of people in every corner of the world.
           </p>
         </div>
-        <div className="lg:flex justify-center gap-x-[52px]">
+        <div className="lg:flex justify-center gap-x-[52px]" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
           <div className="max-w-[500px] border border-[#3c2c47] px-4 w-full mt-[100px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
             <img
               className=" absolute w-full top-0 left-0"
@@ -33,7 +33,7 @@ const Explore = () => {
               alt="shadow"
             />
             <div className="flex justify-center pt-10 lg:pt-20">
-              <img src={clock} alt="clock" />
+              <img className="w-[100px] lg:w-[141px]" src={clock} alt="clock" />
             </div>
             <div className="flex text-center justify-center mt-10">
               <h3 className="text-white font-medium text-md font-Manrope">
@@ -51,7 +51,7 @@ const Explore = () => {
               </p>
             </div>
             <div className="flex justify-center mt-10 pb-12">
-              <img src={unlock} alt="unlock" />
+              <img  src={unlock} alt="unlock" />
             </div>
           </div>
           <div className="max-w-[500px] border border-[#3c2c47] px-4 w-full lg:mt-[100px] mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
@@ -61,7 +61,7 @@ const Explore = () => {
               alt="shadow2"
             />
             <div className="flex justify-center pt-10 lg:pt-20">
-              <img src={phone} alt="phone" />
+              <img className="w-[100px] lg:w-[141px]" src={phone} alt="phone" />
             </div>
             <div className="flex text-center justify-center mt-10">
               <h3 className="text-white font-medium text-md font-Manrope">
@@ -83,7 +83,7 @@ const Explore = () => {
             </div>
           </div>
         </div>
-        <div className="lg:flex justify-center gap-x-[52px]">
+        <div className="lg:flex justify-center gap-x-[52px]" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
           <div className="max-w-[500px] border border-[#3c2c47] px-4 w-full mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
             <img
               className="absolute bottom-0 right-0 w-full"
@@ -91,7 +91,7 @@ const Explore = () => {
               alt=""
             />
             <div className="flex justify-center pt-10 lg:pt-20">
-              <img src={bag} alt="bag" />
+              <img className="w-[100px] lg:w-[141px]" src={bag} alt="bag" />
             </div>
             <div className="flex text-center justify-center mt-10">
               <h3 className="text-white font-medium text-md font-Manrope">
@@ -120,7 +120,7 @@ const Explore = () => {
               alt="shadow"
             />
             <div className="flex justify-center pt-10 lg:pt-20">
-              <img src={fuzzy} alt="fuzzy" />
+              <img className="w-[100px] lg:w-[141px]" src={fuzzy} alt="fuzzy" />
             </div>
             <div className="flex text-center justify-center mt-10">
               <h3 className="text-white font-medium text-md font-Manrope">
@@ -142,10 +142,10 @@ const Explore = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center mt-[140px]">
+        <div className="flex justify-center mt-[140px]" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
           <img src={logo} alt="logo" />
         </div>
-        <div className="flex justify-center mt-[18px]">
+        <div className="flex justify-center mt-[18px]" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
           <p className="text-sm font-normal font-Inter text-white opacity-70">
             see more in Appstun
           </p>

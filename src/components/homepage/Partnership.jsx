@@ -1,5 +1,5 @@
 import React from 'react'
-import phone_img from '../../assets/img/png/phone_img.png'
+import phone_img from '../../assets/img/webp/phone_img.webp'
 import { Approve, LineDown, LineUP, Payments, Seller, Service, Terms } from '../common/Icon'
 
 const Partnership = () => {
@@ -8,11 +8,11 @@ const Partnership = () => {
             <div className='container mx-auto xl:w-[1140px] 2xl:w-[1320px] px-3 sm:px-5 xl:px-0'>
                 <h2 className='lg:mb-[60px] text-center leading-[170%] font-Manrope text-[24px] md:text-[28px] lg:text-[30px] xl:text-lg font-medium text-white mb-4'>Partnership</h2>
                 <div className='w-full flex flex-col lg:flex-row items-center lg:mb-[134px] mb-10'>
-                    <div className='w-full lg:w-6/12'>
+                    <div className='w-full lg:w-6/12' data-aos="fade-right" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
                         <h2 className='font-Manrope text-[24px] md:text-[28px] lg:text-[30px] xl:text-lg font-medium text-white mb-4 lg:max-w-[480px] text-center lg:text-start'>Over $5 billion of transactions protected with escrow.com</h2>
                         <p className='leading-[170%] font-Inter text-xsm lg:text-sm font-normal text-white opacity-70 mb-4 lg:max-w-[424px]'>Escrow.com is the world’s most secure payment method from a counterparty risk perspective - safeguarding both buyer and seller, all funds transacted using escrow are kept in trust.</p>
                     </div>
-                    <div className='lg:mt-0 mt-6'>
+                    <div className='lg:mt-0 mt-6' data-aos="fade-left" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
                         <img className='hover:scale-[1.01] transition duration-400 ease-linear cursor-pointer' src={phone_img} alt="phone_img" />
                     </div>
                 </div>

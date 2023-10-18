@@ -20,8 +20,8 @@ const HomePage = () => {
   }, [])
   return (
     <div className="overflow-hidden">
-      {/* <BackToTop />
-      <LoaderHome /> */}
+      <BackToTop />
+      <LoaderHome />
       <HeroSection />
       <AboutYou />
       <AboutUs />

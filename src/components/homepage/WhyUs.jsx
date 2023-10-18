@@ -21,7 +21,7 @@ const WhyUs = () => {
             offer and a smooth selling process.
           </p>
         </div>
-        <div className="lg:flex gap-7 xl:gap-10 2xl:gap-[50px]">
+        <div className="lg:flex gap-7 xl:gap-10 2xl:gap-[50px]" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
           <div className="flex justify-center">
             <div className="md:flex gap-7 xl:gap-10 2xl:gap-[50px]">
               <div className="flex justify-center">

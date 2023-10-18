@@ -79,6 +79,7 @@
     border: 1px solid #FFF;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.60) 45.71%, rgba(255, 255, 255, 0.00) 100%);
     box-shadow: 4px 5px 65px 0px rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(27px);
 }
 
 /* Explore section */
@@ -87,6 +88,7 @@
     border: 1px solid rgba(255, 255, 255, 0.14);
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 3.73%, rgba(255, 255, 255, 0.00) 100%);
     box-shadow: 0px 0px 40px 0px rgba(72, 68, 242, 0.04), 0px 0px 32px 0px rgba(72, 68, 242, 0.04) inset, 0px 0px 32px 0px rgba(255, 57, 57, 0.04) inset;
+    backdrop-filter: blur(20px);
     cursor: pointer;
 }
 

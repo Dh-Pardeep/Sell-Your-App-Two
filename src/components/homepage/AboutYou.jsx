@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutYou = () => {
     return (
-        <div className='my-14 md:my-20  lg:mb-0 lg:py-[104px]'>
+        <div className='my-14 md:my-20  lg:mb-0 lg:py-[104px]' data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
             <div className='container mx-auto flex justify-center xl:w-[1140px] 2xl:w-[1320px] px-3 sm:px-5 xl:px-0'>
                 <div className='relative about_bg sm:p-10 px-3 py-7 w-[922px] rounded-[40px]'>
                     <div className='absolute top-[36px] left-[20px] sm:w-[193px] w-[100px] sm:h-[195px] h-[100px] rounded-[137px] opacity-50 about_ellipse'></div>

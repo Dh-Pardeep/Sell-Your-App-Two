@@ -5,7 +5,7 @@ const AppToday = () => {
     <div className="container xl:w-[1140px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 py-14 md:py-20 lg:py-24">
       <div className="lg:flex items-center">
         <div className=" flex justify-center">
-          <div className="lg:max-w-[766px] sm:mb-0 mb-12 max-w-[506px] bg-[#dd3b5c] xl:pt-16 pt-[26px] lg:pb-7 pb-10 xl:pe-[82px] px-6  xl:ps-[50px] lg:rounded-l-[30px] lg:rounded-r-[0px] sm:rounded-t-[30px] sm:rounded-none rounded-[30px]">
+          <div className="lg:max-w-[766px] sm:mb-0 mb-12 max-w-[506px] bg-[#dd3b5c] xl:pt-16 pt-[26px] lg:pb-7 pb-10 xl:pe-[82px] px-6  xl:ps-[50px] lg:rounded-l-[30px] lg:rounded-r-[0px] sm:rounded-t-[30px] sm:rounded-none rounded-[30px]" data-aos="fade-right" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
             <h3 className="text-white lg:text-start text-center font-Manrope font-medium sm:text-lg text-md">
               Sell your app today
             </h3>
@@ -23,7 +23,7 @@ const AppToday = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#4f44ec] flex items-center lg:h-[450px] w-full rounded-3xl">
+        <div className="bg-[#4f44ec] flex items-center lg:h-[450px] w-full rounded-3xl" data-aos="fade-left" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
           <div className="w-full bg-card border border-[#C0ACE8] py-10 px-6">
             <div className="lg:flex gap-6 mb-6">
               <input
