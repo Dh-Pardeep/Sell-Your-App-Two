@@ -11,7 +11,7 @@ import shadow3 from "../../assets/img/webp/card-shadow-3.webp";
 import shadow4 from "../../assets/img/webp/card-shadow-4.webp";
 const Explore = () => {
   return (
-    <div className="bg-Hero-bg py-14 md:py-20 lg:pb-14 mt-[-2px]">
+    <div className="bg-Hero-bg pb-14 md:pb-20 lg:pb-14 pt-12 sm:pt-16 lg:pt-[75px]" >
       <div className="container xl:w-[1140px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 ">
         <div className="flex justify-center">
           <h3 className="text-white text-lg font-medium font-Manrope">
