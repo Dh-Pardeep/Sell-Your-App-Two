@@ -5,7 +5,7 @@ import about_vector from '../../assets/img/webp/about_us_vector.webp'
 const AboutUs = () => {
     return (
         <div className='bg-Hero-bg  py-14 md:py-20 lg:pt-[104px] lg:pb-[113px]  overflow-hidden relative'>
-              <div className='absolute bottom-36 left-4 sm:w-[193px] w-[100px] sm:h-[195px] h-[100px] rounded-[137px] opacity-50 about_us_bg_shadow blur-[80px]'></div>
+            <div className='absolute bottom-36 left-4 sm:w-[193px] w-[100px] sm:h-[195px] h-[100px] rounded-[137px] opacity-50 about_us_bg_shadow blur-[80px]'></div>
             <img className='absolute bottom-[-22%] left-[0] min-h-[200px]' src={about_vector} alt="shadow" />
             <div className='container mx-auto xl:w-[1140px] 2xl:w-[1320px] px-3 sm:px-5 xl:px-0'>
                 <div className='w-full flex flex-col lg:flex-row'>
@@ -19,21 +19,21 @@ const AboutUs = () => {
                     </div>
                     <div className='w-full lg:w-6/12 flex lg:flex-col flex-wrap gap-4 lg:items-end items-center justify-center' data-aos="fade-left" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
                         <div className='flex lg:flex-col md:flex-row flex-col gap-4 lg:gap-0' >
-                            <div className='bg-Hero-bg max-w-[395px] cursor-pointer z-[1]  mb-5 rounded-[12px] border border-[rgb(51_23_63)] lg:ps-6 lg:pe-10 lg:py-5 p-5 bg-[rgba(255_255_255_0.04)] inline-block relative'>
-                                <span className='absolute bottom-[0] left-[50%] translate-x-[-50%] z-[-1] hidden lg:block'><Transparency /></span>
+                            <div className='bg-Hero-bg max-w-[395px] cursor-pointer z-[1]  mb-5 rounded-[12px] border border-[rgb(51_23_63)] lg:ps-6 lg:pe-10 lg:py-5 p-5 bg-[rgba(255_255_255_0.04)] inline-block relative overflow-hidden'>
+                                <div className="w-[185px] h-[53px] bg-gradient-to-r from-red-500 to-indigo-600 rounded-full blur-[120px] absolute top-20 left-16 " />
                                 <span><Check /></span>
                                 <h3 className='mt-6 font-Manrope text-[20px] lg-[22px] xl:text-md font-medium text-white mb-1'>Transparency</h3>
                                 <p className='mb-0 leading-[170%] font-Inter text-[15px] lg:text-sm font-normal text-white opacity-70 md:max-w-[331px]'>We value transparency. You can ask any question and have a call with us any time during the sales process.</p>
                             </div>
-                            <div className='bg-Hero-bg max-w-[395px] cursor-pointer z-[1] relative w-ful  mb-5 rounded-[12px] border border-[rgb(51_23_63)] lg:ps-6 lg:pe-10 lg:py-5 p-5 bg-[rgba(255_255_255_0.04)] inline-block'>
-                                <span className='absolute bottom-[0] left-[50%] translate-x-[-50%] z-[-1] hidden lg:block'><Highest /></span>
+                            <div className='bg-Hero-bg max-w-[395px] cursor-pointer z-[1]  w-ful  mb-5 rounded-[12px] border border-[rgb(51_23_63)] lg:ps-6 lg:pe-10 lg:py-5 p-5 bg-[rgba(255_255_255_0.04)] inline-block relative overflow-hidden'>
+                                <div className="w-[185px] h-[53px] bg-cyan-400  rounded-full blur-[90px] absolute top-20 left-16 " />
                                 <span><Check /></span>
                                 <h3 className='mt-6 font-Manrope text-[20px] lg-[22px] xl:text-md font-medium text-white mb-1'>Highest price guarantee</h3>
                                 <p className='mb-0 leading-[170%] font-Inter text-[15px] lg:text-sm font-normal text-white opacity-70 md:max-w-[331px]'>We promise to give you the best offer for your mobile app.</p>
                             </div>
                         </div>
-                        <div className='bg-Hero-bg max-w-[395px] cursor-pointer z-[1] relative  rounded-[12px] border border-[rgb(51_23_63)] lg:ps-6 lg:pe-5 plg:y-5 p-5 bg-[rgba(255_255_255_0.04)] inline-block'>
-                            <span className='absolute bottom-[0] left-[50%] translate-x-[-50%] z-[-1] hidden lg:block'><Safe /></span>
+                        <div className='bg-Hero-bg max-w-[395px] cursor-pointer z-[1] relative  rounded-[12px] border border-[rgb(51_23_63)] lg:ps-6 lg:pe-5 plg:y-5 p-5 bg-[rgba(255_255_255_0.04)] inline-block overflow-hidden'>
+                        <div className="w-[185px] h-[53px]  bg-emerald-500 rounded-full blur-[90px] absolute top-20 left-16 " />
                             <span><Check /></span>
                             <h3 className='mt-6 font-Manrope text-[20px] lg-[22px] xl:text-md font-medium text-white mb-1'>Safe Process</h3>
                             <p className='mb-0 leading-[170%] font-Inter text-[15px] lg:text-sm font-normal text-white opacity-70 md:max-w-[351px]'>We partner with escrow.com, the biggest and  most trusted escrow platform in the world.</p>
