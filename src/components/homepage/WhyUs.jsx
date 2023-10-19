@@ -8,7 +8,7 @@ import vibes from "../../assets/img/webp/vibes.webp";
 const WhyUs = () => {
   return (
     <div className="bg-Hero-bg">
-      <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 lg:pt-28 py-14">
+      <div className="container xl:w-[1140px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 lg:pt-28 pt-14 md:pt-20 pb-12 sm:pb-16 lg:pb-[75px]">
         <div className="flex justify-center">
           <h3 className="text-white font-Manrope font-medium text-lg">
             Why Us?
@@ -26,7 +26,7 @@ const WhyUs = () => {
             <div className="md:flex gap-7 xl:gap-10 2xl:gap-[50px]">
               <div className="flex justify-center">
                 <div className="sm:flex gap-7 xl:gap-10 2xl:gap-[50px]">
-                  <div className="mt-20">
+                  <div className="mt-12 lg:mt-20 ">
                     <div className="flex justify-center">
                       <img className="max-w-[133px]" src={great} alt="cash" />
                     </div>
@@ -35,7 +35,7 @@ const WhyUs = () => {
                     </p>
                   </div>
                   <div className="flex justify-center">
-                    <div className="mt-20">
+                    <div className="mt-12 lg:mt-20 ">
                       <div className="flex justify-center">
                         <img className="max-w-[133px]" src={cash} alt="cash" />
                       </div>
@@ -47,7 +47,7 @@ const WhyUs = () => {
                 </div>
               </div>
               <div className="flex justify-center">
-                <div className="mt-20">
+                <div className="mt-12 lg:mt-20 ">
                   <div className="flex justify-center">
                     <img className="max-w-[133px]" src={price} alt="cash" />
                   </div>
@@ -60,7 +60,7 @@ const WhyUs = () => {
           </div>
           <div className="flex justify-center">
             <div className="sm:flex gap-7 xl:gap-10 2xl:gap-[50px]">
-              <div className="mt-20">
+              <div className="mt-12 lg:mt-20 ">
                 <div className="flex justify-center">
                   <img className="max-w-[133px]" src={vibes} alt="cash" />
                 </div>
@@ -69,7 +69,7 @@ const WhyUs = () => {
                 </p>
               </div>
               <div className="flex justify-center">
-                <div className="mt-20">
+                <div className="mt-12 lg:mt-20 ">
                   <div className="flex justify-center">
                     <img className="max-w-[133px]" src={process} alt="cash" />
                   </div>
@@ -81,7 +81,7 @@ const WhyUs = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center mt-20 lg:pb-[75px]">
+        <div className="flex justify-center mt-16 lg:mt-20">
           <div className="px-10 cursor-pointer rounded-[38px] py-4 inline-block bg-gradient-to-r from-red-500 to-indigo-600 hover:from-indigo-800 hover:to-red-700 delay-1000">
             <button className="text-white font-Manrope font-normal text-sm">
               SellYourApp

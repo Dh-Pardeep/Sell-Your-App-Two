@@ -11,8 +11,8 @@ import shadow3 from "../../assets/img/webp/card-shadow-3.webp";
 import shadow4 from "../../assets/img/webp/card-shadow-4.webp";
 const Explore = () => {
   return (
-    <div className="bg-Hero-bg py-14 mt-[-2px]">
-      <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 ">
+    <div className="bg-Hero-bg pb-14 md:pb-20 lg:pb-14 pt-12 sm:pt-16 lg:pt-[75px]">
+      <div className="container xl:w-[1140px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 ">
         <div className="flex justify-center">
           <h3 className="text-white text-lg font-medium font-Manrope">
             Explore Our Apps
@@ -51,7 +51,7 @@ const Explore = () => {
               </p>
             </div>
             <div className="flex justify-center mt-10 pb-12">
-              <img src={unlock} alt="unlock" />
+              <img className="unlock_bg px-5 py-4" src={unlock} alt="unlock" />
             </div>
           </div>
           <div className="lg:max-w-[500px] max-w-[430px] border border-[#3c2c47] px-4 w-full lg:mt-[100px] mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
@@ -79,7 +79,7 @@ const Explore = () => {
               </p>
             </div>
             <div className="flex justify-center mt-10 pb-12">
-              <img src={unlock} alt="unlock" />
+              <img className="unlock_bg px-5 py-4" src={unlock} alt="unlock" />
             </div>
           </div>
         </div>
@@ -110,7 +110,7 @@ const Explore = () => {
               </p>
             </div>
             <div className="flex justify-center mt-10 pb-12">
-              <img src={unlock} alt="unlock" />
+              <img className="unlock_bg px-5 py-4" src={unlock} alt="unlock" />
             </div>
           </div>
           <div className="lg:max-w-[500px] max-w-[430px] border border-[#3c2c47] px-4 w-full mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
@@ -138,12 +138,18 @@ const Explore = () => {
               </p>
             </div>
             <div className="flex justify-center mt-10 pb-12">
-              <img src={unlock} alt="unlock" />
+              <img className="unlock_bg px-5 py-4" src={unlock} alt="unlock" />
             </div>
           </div>
         </div>
-        <div className="flex justify-center mt-[140px]">
-          <img src={logo} alt="logo" />
+        <div
+          className="flex justify-center mt-[140px]"
+          data-aos="zoom-in"
+          data-aos-duration="700"
+          data-aos-delay="500"
+          data-aos-easing="linear"
+        >
+          <img className="max-h-[240px]" src={logo} alt="logo" />
         </div>
         <div className="flex justify-center mt-[18px]">
           <p className="text-sm font-normal font-Inter text-white opacity-70">

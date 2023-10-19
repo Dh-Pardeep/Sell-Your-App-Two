@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="flex  justify-center lg:justify-start">
             <div className=" lg:max-w-[372px] pt-14 lg:pt-[70px]">
               <div className="flex justify-center lg:justify-start">
-                <img src={logo} alt="logo" />
+                <img className="max-h-[240px]" src={logo} alt="logo" />
               </div>
               <p className="opacity-70 text-center lg:text-start text-white text-sm font-normal font-Inter leading-7 mt-6">
                 SellYourApp is an Appstun organization. Appstun is a global
