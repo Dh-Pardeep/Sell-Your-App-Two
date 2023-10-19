@@ -6,9 +6,9 @@ import Logo from '../../assets/img/svg/logo.svg'
 const HeaderNav = () => {
     const [showNavbar, setShowNavbar] = useState(true);
     if (showNavbar) {
-        document.body.classList.remove('overflow-hidden');
+        document.body.classList.remove('overflow_hidden');
     } else {
-        document.body.classList.add('overflow-hidden')
+        document.body.classList.add('overflow_hidden')
     }
 
     const [scrolling, setScrolling] = useState(false);
@@ -44,9 +44,9 @@ const HeaderNav = () => {
                                     <input type="text" className='bg-transparent font-Manrope placeholder:font-Manrope w-[232px] pb-4 px-2 text-white font-bold font leading-[170%]  placeholder:text-white placeholder:font-bold placeholder:leading-[170%]  outline-none' placeholder='How much is my app worth?' />
                                 </li>
                             </div>
-                            <ul className={`${showNavbar ? 'flex items-center mb-0 nav_sm p-0' : 'flex items-center mb-0 nav_sm nav_show p-0'} `}>
-                                <li><Link onClick={() => setShowNavbar(true)} className='font-Inter lg:me-8 mb-10 lg:mb-0  text-white font-Open text-sm font-normal inline-block  relative after:content-[""] after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 duration-300 after:bg-white after:absolute after:bottom-[-3px] hover:after:w-full hover:after:left-0 after:left-[50%] leading-normal opacity-[0.7] hover:opacity-[1]' to="/">About</Link></li>
-                                <li><Link onClick={() => setShowNavbar(true)} className='font-Inter lg:me-8 mb-10 lg:mb-0 font-Open text-white text-sm hover:text-white font-normal inline-block  relative after:content-[""] after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 duration-300 after:bg-white after:absolute after:bottom-[-3px] hover:after:w-full hover:after:left-0 after:left-[50%] leading-normal opacity-[0.7] hover:opacity-[1] ' to="/Invest">How it Works</Link></li>
+                            <ul className={`${showNavbar ? 'flex items-center mb-0 nav_sm p-0' : 'flex items-center mb-0 nav_sm nav_show p-0 '} `}>
+                                <li><Link  onClick={() => setShowNavbar(true)} className='font-Inter lg:me-8 mb-10 lg:mb-0  text-white font-Open text-sm font-normal inline-block  relative after:content-[""] after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 duration-300 after:bg-white after:absolute after:bottom-[-3px] hover:after:w-full hover:after:left-0 after:left-[50%] leading-normal opacity-[0.7] hover:opacity-[1]' to="/">About</Link></li>
+                                <li><a href='#How_Work' onClick={() => setShowNavbar(true)} className='font-Inter lg:me-8 mb-10 lg:mb-0 font-Open text-white text-sm hover:text-white font-normal inline-block  relative after:content-[""] after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 duration-300 after:bg-white after:absolute after:bottom-[-3px] hover:after:w-full hover:after:left-0 after:left-[50%] leading-normal opacity-[0.7] hover:opacity-[1] ' >How it Works</a></li>
                                 <li><Link onClick={() => setShowNavbar(true)} className='font-Inter mb-20 lg:mb-0 font-Open text-white text-sm hover:text-white font-normal inline-block  relative after:content-[""] after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 duration-300 after:bg-white after:absolute after:bottom-[-3px] hover:after:w-full hover:after:left-0 after:left-[50%] leading-normal opacity-[0.7] hover:opacity-[1] ' to="/cofounder">Blog</Link></li>
                                 <li className='relative after:content-[""] after:w-full after:h-[1px]  after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 duration-300 after:bg-white after:absolute after:bottom-0 after:left-0 sm:hidden '>
                                     <input type="text" className='bg-transparent font-Manrope placeholder:font-Manrope w-[232px] py-4 px-2 text-white font-bold font leading-[170%]  placeholder:text-white placeholder:font-bold placeholder:leading-[170%]  outline-none' placeholder='How much is my app worth?' />

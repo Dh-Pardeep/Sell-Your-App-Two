@@ -63,7 +63,7 @@ const AppToday = () => {
 
             <div className="flex justify-center mt-11 ">
               <div className="px-10 cursor-pointer rounded-[38px] py-4 inline-block bg-gradient-to-r from-red-500 to-indigo-600 hover:from-indigo-700 hover:to-red-600 delay-1000">
-                <button className="text-white font-Manrope font-normal text-sm">
+                <button aria-label="  Submit Now" className="text-white font-Manrope font-normal text-sm">
                   Submit Now
                 </button>
               </div>

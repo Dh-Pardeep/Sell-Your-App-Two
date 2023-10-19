@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import unlock from "../../assets/img/webp/unlock.webp";
 import clock from "../../assets/img/webp/clock.webp";
 import phone from "../../assets/img/webp/phone.webp";
@@ -9,9 +9,66 @@ import shadow1 from "../../assets/img/webp/card-shadow-1.webp";
 import shadow2 from "../../assets/img/webp/card-shadow-2.webp";
 import shadow3 from "../../assets/img/webp/card-shadow-3.webp";
 import shadow4 from "../../assets/img/webp/card-shadow-4.webp";
+import VanillaTilt from 'vanilla-tilt';
 const Explore = () => {
+  const card1Ref = useRef(null);
+  const card2Ref = useRef(null);
+  const card3Ref = useRef(null);
+  const card4Ref = useRef(null);
+
+  useEffect(() => {
+    if (card1Ref.current) {
+      VanillaTilt.init(card1Ref.current, {
+        max: 6,
+        speed: 800,
+        glare: true,
+        'max-glare': 0.1,
+      });
+    }
+
+    if (card2Ref.current) {
+      VanillaTilt.init(card2Ref.current, {
+        max: 6,
+        speed: 800,
+        glare: true,
+        'max-glare': 0.1,
+      });
+    }
+
+    if (card3Ref.current) {
+      VanillaTilt.init(card3Ref.current, {
+        max: 6,
+        speed: 800,
+        glare: true,
+        'max-glare': 0.1,
+      });
+    }
+    if (card4Ref.current) {
+      VanillaTilt.init(card4Ref.current, {
+        max: 6,
+        speed: 800,
+        glare: true,
+        'max-glare': 0.1,
+      });
+    }
+    return () => {
+      if (card1Ref.current) {
+        card1Ref.current.vanillaTilt.destroy();
+      }
+      if (card2Ref.current) {
+        card2Ref.current.vanillaTilt.destroy();
+      }
+      if (card3Ref.current) {
+        card3Ref.current.vanillaTilt.destroy();
+      }
+      if (card4Ref.current) {
+        card4Ref.current.vanillaTilt.destroy();
+      }
+    };
+  }, []);
+
   return (
-    <div className="bg-Hero-bg pb-14 md:pb-20 lg:pb-14 pt-12 sm:pt-16 lg:pt-[75px]" >
+    <div className="bg-Hero-bg pb-14 md:pb-20 lg:pb-14 pt-12 sm:pt-16 lg:pt-[75px] mt-[-2px]"id="Our_app" >
       <div className="container xl:w-[1140px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 ">
         <div className="flex justify-center">
           <h3 className="text-white text-lg font-medium font-Manrope">
@@ -25,8 +82,9 @@ const Explore = () => {
             used by millions of people in every corner of the world.
           </p>
         </div>
-        <div className="lg:flex justify-center gap-x-[52px]" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
-          <div className="max-w-[500px] border border-[#3c2c47] px-4 w-full mt-[100px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
+        <div className="lg:flex justify-center gap-x-[52px] mt-14 sm:mt-16 md:mt-20 lg:mt-24" >
+          <div ref={card1Ref} data-tilt className=" transform: translateZ(20px) transform-style: preserve-3d max-w-[500px] border border-[#3c2c47] px-4 w-full  overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
+
             <img
               className=" absolute w-full top-0 left-0"
               src={shadow1}
@@ -54,7 +112,7 @@ const Explore = () => {
               <img className="unlock_bg px-5 py-4" src={unlock} alt="unlock" />
             </div>
           </div>
-          <div className="max-w-[500px] border border-[#3c2c47] px-4 w-full lg:mt-[100px] mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
+          <div ref={card2Ref} data-tilt className=" transform: translateZ(20px) transform-style: preserve-3d  max-w-[500px] border border-[#3c2c47] px-4 w-full lg:mt-[100px] mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="700" data-aos-easing="linear">
             <img
               className=" absolute w-full bottom-0 left-0"
               src={shadow2}
@@ -84,7 +142,7 @@ const Explore = () => {
           </div>
         </div>
         <div className="lg:flex justify-center gap-x-[52px]" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
-          <div className="max-w-[500px] border border-[#3c2c47] px-4 w-full mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
+          <div ref={card3Ref} data-tilt className="transform: translateZ(20px) transform-style: preserve-3d  max-w-[500px] border border-[#3c2c47] px-4 w-full mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
             <img
               className="absolute bottom-0 right-0 w-full"
               src={shadow3}
@@ -113,7 +171,7 @@ const Explore = () => {
               <img className="unlock_bg px-5 py-4" src={unlock} alt="unlock" />
             </div>
           </div>
-          <div className="max-w-[500px] border border-[#3c2c47] px-4 w-full mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
+          <div ref={card4Ref} data-tilt className="transform: translateZ(20px) transform-style: preserve-3d max-w-[500px] border border-[#3c2c47] px-4 w-full mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="700" data-aos-easing="linear">
             <img
               className="w-full absolute top-0 left-0"
               src={shadow4}
@@ -142,7 +200,7 @@ const Explore = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center mt-[140px]" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
+        <div className="flex justify-center mt-14 sm:mt-20 md:mt-28 lg:mt-[140px]" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
           <img className="max-h-[240px]" src={logo} alt="logo" />
         </div>
         <div className="flex justify-center mt-[18px]" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
@@ -152,7 +210,7 @@ const Explore = () => {
         </div>
         <div className="flex justify-center mt-10 lg:pb-[100px]">
           <div className="px-10 cursor-pointer rounded-[38px] py-4 inline-block bg-gradient-to-r from-red-500 to-indigo-600 hover:from-indigo-700 hover:to-red-600 delay-1000">
-            <button className="text-white font-Manrope font-bold text-sm">
+            <button aria-label='Explore' className="text-white font-Manrope font-bold text-sm">
               Explore
             </button>
           </div>

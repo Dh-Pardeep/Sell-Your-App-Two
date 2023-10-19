@@ -3,7 +3,7 @@ import { AgreementIcon, ClosingIcon, ContactIcon, OfferIcon, ReviewHow } from '.
 
 const HowWork = () => {
     return (
-        <div>
+        <div id='How_Work'>
             <div className='container xl:w-[1140px] 2xl:w-[1320px]  px-3 sm:px-5 xl:px-0 mx-auto'>
                 <div className=' pt-14 md:pt-20 lg:pt-20'>
                     <h2 className="text-center text-dark text-md md:text-[28px] lg:text-[31px] xl:text-lg font-medium font-Manrope leading-normal">How it Works?</h2>
