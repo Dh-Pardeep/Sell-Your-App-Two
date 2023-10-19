@@ -83,7 +83,7 @@ const Explore = () => {
           </p>
         </div>
         <div className="lg:flex justify-center gap-x-[52px] mt-14 sm:mt-16 md:mt-20 lg:mt-24" >
-          <div ref={card1Ref} data-tilt className=" transform: translateZ(20px) transform-style: preserve-3d max-w-[500px] border border-[#3c2c47] px-4 w-full  overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
+          <div ref={card1Ref} data-tilt className=" max-w-[500px] border border-[#3c2c47] px-4 w-full  overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
 
             <img
               className=" absolute w-full top-0 left-0"
@@ -112,7 +112,7 @@ const Explore = () => {
               <img className="unlock_bg px-5 py-4" src={unlock} alt="unlock" />
             </div>
           </div>
-          <div ref={card2Ref} data-tilt className=" transform: translateZ(20px) transform-style: preserve-3d  max-w-[500px] border border-[#3c2c47] px-4 w-full lg:mt-[100px] mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="700" data-aos-easing="linear">
+          <div ref={card2Ref} data-tilt className="  max-w-[500px] border border-[#3c2c47] px-4 w-full mt-[54px] lg:mt-0 overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="700" data-aos-easing="linear">
             <img
               className=" absolute w-full bottom-0 left-0"
               src={shadow2}
@@ -142,7 +142,7 @@ const Explore = () => {
           </div>
         </div>
         <div className="lg:flex justify-center gap-x-[52px]" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
-          <div ref={card3Ref} data-tilt className="transform: translateZ(20px) transform-style: preserve-3d  max-w-[500px] border border-[#3c2c47] px-4 w-full mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
+          <div ref={card3Ref} data-tilt className=" max-w-[500px] border border-[#3c2c47] px-4 w-full mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
             <img
               className="absolute bottom-0 right-0 w-full"
               src={shadow3}
@@ -171,7 +171,7 @@ const Explore = () => {
               <img className="unlock_bg px-5 py-4" src={unlock} alt="unlock" />
             </div>
           </div>
-          <div ref={card4Ref} data-tilt className="transform: translateZ(20px) transform-style: preserve-3d max-w-[500px] border border-[#3c2c47] px-4 w-full mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="700" data-aos-easing="linear">
+          <div ref={card4Ref} data-tilt className="max-w-[500px] border border-[#3c2c47] px-4 w-full mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="700" data-aos-easing="linear">
             <img
               className="w-full absolute top-0 left-0"
               src={shadow4}
