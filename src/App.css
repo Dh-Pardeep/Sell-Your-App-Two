@@ -172,7 +172,7 @@
 .Full_line::after {
     content: "";
     position: absolute;
-    height: 63%;
+    height: 66%;
     width: 3px;
     top: 90px;
     left: 26px;
