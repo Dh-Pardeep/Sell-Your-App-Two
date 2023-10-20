@@ -21,19 +21,12 @@
     -webkit-text-fill-color: transparent;
 }
 
-.about_you_gradient {
-    border-radius: 12px;
-    background: linear-gradient(transparent);
-    position: relative;
-    background: transparent;
-}
-
 .about_you_gradient::after {
     content: "";
     position: absolute;
     border-radius: 12px;
-    padding: 1.2px;
-    opacity: 0.4;
+    padding: 1.3px;
+    opacity: 0.3;
     background: linear-gradient(102deg, #FF3939 -4.42%, #4844F2 103.64%);
     inset: 0;
     height: 100%;
@@ -98,14 +91,13 @@ backdrop-filter: blur(27px);
 
 
 .bg-card-2:hover {
-    box-shadow: 0px 0px 25px #281d3a;
+    box-shadow: 0px -3px 24px 20px #281d3a;
 }
 
 /* hero section  */
 .Sell_bg {
     background: linear-gradient(102deg, #FF3939 -4.42%, #4844F2 103.64%);
 }
-
 
 /* =================   How Work=================== */
 .firstDay {
@@ -177,7 +169,7 @@ backdrop-filter: blur(27px);
 .Full_line::after {
     content: "";
     position: absolute;
-    height: 63%;
+    height: 66%;
     width: 3px;
     top: 90px;
     left: 26px;
@@ -195,19 +187,9 @@ backdrop-filter: blur(27px);
     0% {
         transform: translateY(0px);
     }
-
-    25% {
-        transform: translateY(8px);
-    }
-
     50% {
-        transform: translateY(0px);
-    }
-
-    75% {
         transform: translateY(8px);
     }
-
     100% {
         transform: translateY(0px);
     }
@@ -232,7 +214,6 @@ backdrop-filter: blur(27px);
     }
 }
 
-
 @media (max-width:1023.9px) {
     .nav_sm {
         position: absolute;
@@ -254,7 +235,7 @@ backdrop-filter: blur(27px);
     }
 
     .overflow_hidden {
-        overflow: hidden;
+        overflow: hidden !important;
     }
 
     .close_nav {

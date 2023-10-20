@@ -11,7 +11,11 @@ const Footer = () => {
           <div className="flex  justify-center lg:justify-start">
             <div className=" lg:max-w-[372px] pt-14 lg:pt-[70px]">
               <div className="flex justify-center lg:justify-start">
-                <img src={logo} alt="logo" />
+                <img
+                  className="max-h-[240px] cursor-pointer"
+                  src={logo}
+                  alt="logo"
+                />
               </div>
               <p className="opacity-70 text-center lg:text-start text-white text-sm font-normal font-Inter leading-7 mt-6">
                 SellYourApp is an Appstun organization. Appstun is a global
@@ -36,22 +40,34 @@ const Footer = () => {
                 Quick Links
               </li>
               <li>
-                <a className="opacity-80 text-white hover:opacity-60 inline-block font-Inter cursor-pointer mb-0 font-medium text-sm mt-4">
+                <a
+                  href="#About"
+                  className="opacity-80 text-white hover:opacity-60 inline-block font-Inter cursor-pointer mb-0 font-medium text-sm mt-4"
+                >
                   About
                 </a>
               </li>
               <li>
-                <a className="opacity-80 text-white hover:opacity-60 inline-block font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
+                <a
+                  href="#Sale_process"
+                  className="opacity-80 text-white hover:opacity-60 inline-block font-Inter cursor-pointer mb-0 font-medium text-sm mt-3"
+                >
                   App Sale process
                 </a>
               </li>
               <li>
-                <a className="opacity-80 text-white hover:opacity-60 inline-block font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
+                <a
+                  href="#Why"
+                  className="opacity-80 text-white hover:opacity-60 inline-block font-Inter cursor-pointer mb-0 font-medium text-sm mt-3"
+                >
                   Why Us?
                 </a>
               </li>
               <li>
-                <a className="opacity-80 text-white hover:opacity-60 inline-block font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
+                <a
+                  href="#Our_app"
+                  className="opacity-80 text-white hover:opacity-60 inline-block font-Inter cursor-pointer mb-0 font-medium text-sm mt-3"
+                >
                   Our App
                 </a>
               </li>
