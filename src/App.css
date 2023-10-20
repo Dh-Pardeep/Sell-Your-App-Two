@@ -338,8 +338,8 @@
 
     .close_nav {
         position: absolute;
-        right: 10%;
-        top: 25px;
+        right: 3%;
+        top: 23px;
         cursor: pointer;
     }
 }
