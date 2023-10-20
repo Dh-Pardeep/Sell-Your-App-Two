@@ -8,7 +8,7 @@ import vibes from "../../assets/img/webp/vibes.webp";
 const WhyUs = () => {
   return (
     <div className="bg-Hero-bg">
-      <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 lg:pt-28 py-14">
+      <div className="container mx-auto pt-28">
         <div className="flex justify-center">
           <h3 className="text-white font-Manrope font-medium text-lg">
             Why Us?
@@ -21,14 +21,18 @@ const WhyUs = () => {
             offer and a smooth selling process.
           </p>
         </div>
-        <div className="lg:flex gap-7 xl:gap-10 2xl:gap-[50px]">
+        <div className="lg:flex gap-7 xl:gap-10 2xl:gap-[106px]">
           <div className="flex justify-center">
-            <div className="md:flex gap-7 xl:gap-10 2xl:gap-[50px]">
+            <div className="md:flex gap-7 xl:gap-10 2xl:gap-[106px]">
               <div className="flex justify-center">
-                <div className="sm:flex gap-7 xl:gap-10 2xl:gap-[50px]">
+                <div className="sm:flex gap-7 xl:gap-10 2xl:gap-[106px]">
                   <div className="mt-20">
                     <div className="flex justify-center">
-                      <img className="max-w-[133px]" src={great} alt="cash" />
+                      <img
+                        className="max-w-[133px] cursor-pointer"
+                        src={great}
+                        alt="cash"
+                      />
                     </div>
                     <p className="text-center mt-5 opacity-70 text-white font-Inter font-normal text-sm max-w-[220px]">
                       We guarantee 14 days from contact to exit
@@ -37,9 +41,13 @@ const WhyUs = () => {
                   <div className="flex justify-center">
                     <div className="mt-20">
                       <div className="flex justify-center">
-                        <img className="max-w-[133px]" src={cash} alt="cash" />
+                        <img
+                          className="max-w-[133px] cursor-pointer"
+                          src={cash}
+                          alt="cash"
+                        />
                       </div>
-                      <p className="text-center mt-5 opacity-70 text-white font-Inter font-normal text-sm max-w-[220px]">
+                      <p className="text-center mt-5 opacity-70 text-white font-Inter font-normal text-sm max-w-[189px]">
                         Full cash offer, get paid immediately
                       </p>
                     </div>
@@ -49,9 +57,13 @@ const WhyUs = () => {
               <div className="flex justify-center">
                 <div className="mt-20">
                   <div className="flex justify-center">
-                    <img className="max-w-[133px]" src={price} alt="cash" />
+                    <img
+                      className="max-w-[133px] cursor-pointer"
+                      src={price}
+                      alt="cash"
+                    />
                   </div>
-                  <p className="text-center mt-5 opacity-70 text-white font-Inter font-normal text-sm max-w-[220px]">
+                  <p className="text-center mt-5 opacity-70 text-white font-Inter font-normal text-sm max-w-[153px]">
                     Best price/valuation guarantee
                   </p>
                 </div>
@@ -59,21 +71,29 @@ const WhyUs = () => {
             </div>
           </div>
           <div className="flex justify-center">
-            <div className="sm:flex gap-7 xl:gap-10 2xl:gap-[50px]">
+            <div className="sm:flex gap-7 xl:gap-10 2xl:gap-[106px]">
               <div className="mt-20">
                 <div className="flex justify-center">
-                  <img className="max-w-[133px]" src={vibes} alt="cash" />
+                  <img
+                    className="max-w-[133px] cursor-pointer"
+                    src={vibes}
+                    alt="cash"
+                  />
                 </div>
-                <p className="text-center mt-5 opacity-70 text-white font-Inter font-normal text-sm max-w-[220px]">
+                <p className="text-center mt-5 opacity-70 text-white font-Inter font-normal text-sm max-w-[203px]">
                   Good vibes only. We value human connections.
                 </p>
               </div>
               <div className="flex justify-center">
                 <div className="mt-20">
                   <div className="flex justify-center">
-                    <img className="max-w-[133px]" src={process} alt="cash" />
+                    <img
+                      className="max-w-[133px] cursor-pointer"
+                      src={process}
+                      alt="cash"
+                    />
                   </div>
-                  <p className="text-center mt-5 opacity-70 text-white font-Inter font-normal text-sm max-w-[220x]">
+                  <p className="text-center mt-5 opacity-70 text-white font-Inter font-normal text-sm max-w-[158px]">
                     Simple process, zero complexity
                   </p>
                 </div>
@@ -81,7 +101,7 @@ const WhyUs = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center mt-20 lg:pb-[75px]">
+        <div className="flex justify-center mt-20 pb-[75px]">
           <div className="px-10 cursor-pointer rounded-[38px] py-4 inline-block bg-gradient-to-r from-red-500 to-indigo-600 hover:from-indigo-800 hover:to-red-700 delay-1000">
             <button className="text-white font-Manrope font-normal text-sm">
               SellYourApp

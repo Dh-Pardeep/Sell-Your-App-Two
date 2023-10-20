@@ -39,7 +39,7 @@ const HeaderNav = () => {
                     <div className='container xl:w-[1140px] 2xl:w-[1320px]  px-3 sm:px-5 xl:px-0 mx-auto'>
                         <nav className='flex justify-between items-center py-4'>
                             <div className='cursor-pointer flex items-center w-full lg:w-fit '>
-                                <img src={Logo} alt="" />
+                                <img className='max-w-[220px]' src={Logo} alt="" />
                                 <li className='relative after:content-[""] after:w-full after:h-[1px]  after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 duration-300 after:bg-white after:absolute after:bottom-0 after:left-0 hidden sm:block  lg:hidden ms-auto me-8'>
                                     <input type="text" className='bg-transparent font-Manrope placeholder:font-Manrope w-[232px] pb-4 px-2 text-white font-bold font leading-[170%]  placeholder:text-white placeholder:font-bold placeholder:leading-[170%]  outline-none' placeholder='How much is my app worth?' />
                                 </li>

@@ -6,7 +6,7 @@ import { BolIcon, InstagramIcon, MessageIcon } from "./Icon";
 const Footer = () => {
   return (
     <div className="bg-black rounded-tl-[60px] rounded-tr-[60px]">
-      <div className="container mx-auto">
+      <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
         <div className="lg:flex justify-between">
           <div className="flex  justify-center lg:justify-start">
             <div className=" lg:max-w-[372px] pt-14 lg:pt-[70px]">
@@ -31,32 +31,44 @@ const Footer = () => {
             </div>
           </div>
           <div className="sm:flex lg:justify-start justify-center lg:gap-20 sm:gap-28">
-            <ul className="text-center sm:text-start mt-[90px]">
+            <ul className="text-center sm:text-start mt-10 lg:mt-[90px] flex flex-col">
               <li className="text-white font-Inter font-medium text-sm mt-4">
                 Quick Links
               </li>
-              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
-                About
+              <li>
+                <a className="opacity-80 text-white hover:opacity-60 inline-block font-Inter cursor-pointer mb-0 font-medium text-sm mt-4">
+                  About
+                </a>
               </li>
-              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
-                App Sale process
+              <li>
+                <a className="opacity-80 text-white hover:opacity-60 inline-block font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
+                  App Sale process
+                </a>
               </li>
-              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
-                Why Us?
+              <li>
+                <a className="opacity-80 text-white hover:opacity-60 inline-block font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
+                  Why Us?
+                </a>
               </li>
-              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
-                Our App
+              <li>
+                <a className="opacity-80 text-white hover:opacity-60 inline-block font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
+                  Our App
+                </a>
               </li>
             </ul>
-            <ul className="text-center sm:text-start mt-[90px]  mb-12 llg:mb-0">
+            <ul className="text-center sm:text-start mt-10 lg:mt-[90px]  mb-12 llg:mb-0">
               <li className="text-white font-Inter font-medium text-sm mt-4">
                 Information
               </li>
-              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
-                Contact
+              <li>
+                <a className="opacity-80 text-white hover:opacity-60 inline-block font-Inter cursor-pointer mb-0 font-medium text-sm mt-4">
+                  Contact
+                </a>
               </li>
-              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
-                support@appstun.com
+              <li>
+                <a className="opacity-80 text-white hover:opacity-60 inline-block font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
+                  support@appstun.com
+                </a>
               </li>
             </ul>
           </div>
