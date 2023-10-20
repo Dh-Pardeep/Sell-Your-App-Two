@@ -101,7 +101,7 @@ const Explore = () => {
               alt="shadow"
             />
             <div className="flex justify-center pt-10 lg:pt-20">
-              <img className="w-[140px]" src={clock} alt="clock" />
+              <img className="w-[100px] lg:w-[141px]" src={clock} alt="clock" />
             </div>
             <div className="flex text-center justify-center mt-10">
               <h3 className="text-white font-medium text-md font-Manrope">
@@ -119,7 +119,7 @@ const Explore = () => {
               </p>
             </div>
             <div className="flex justify-center mt-10 pb-12">
-              <img src={unlock} alt="unlock" />
+              <img className="unlock_bg px-5 py-4" src={unlock} alt="unlock" />
             </div>
           </div>
           <div
@@ -137,7 +137,7 @@ const Explore = () => {
               alt="shadow2"
             />
             <div className="flex justify-center pt-10 lg:pt-20">
-              <img className="w-[140px]" src={phone} alt="phone" />
+              <img className="w-[100px] lg:w-[141px]" src={phone} alt="phone" />
             </div>
             <div className="flex text-center justify-center mt-10">
               <h3 className="text-white font-medium text-md font-Manrope">
@@ -155,7 +155,7 @@ const Explore = () => {
               </p>
             </div>
             <div className="flex justify-center mt-10 pb-12">
-              <img src={unlock} alt="unlock" />
+              <img className="unlock_bg px-5 py-4" src={unlock} alt="unlock" />
             </div>
           </div>
         </div>
@@ -178,10 +178,10 @@ const Explore = () => {
             <img
               className="absolute bottom-0 right-0 w-full"
               src={shadow3}
-              alt="shadow-3"
+              alt=""
             />
             <div className="flex justify-center pt-10 lg:pt-20">
-              <img className="w-[140px]" src={bag} alt="bag" />
+              <img className="w-[100px] lg:w-[141px]" src={bag} alt="bag" />
             </div>
             <div className="flex text-center justify-center mt-10">
               <h3 className="text-white font-medium text-md font-Manrope">
@@ -200,7 +200,7 @@ const Explore = () => {
               </p>
             </div>
             <div className="flex justify-center mt-10 pb-12">
-              <img src={unlock} alt="unlock" />
+              <img className="unlock_bg px-5 py-4" src={unlock} alt="unlock" />
             </div>
           </div>
           <div
@@ -218,7 +218,7 @@ const Explore = () => {
               alt="shadow"
             />
             <div className="flex justify-center pt-10 lg:pt-20">
-              <img className="w-[140px]" src={fuzzy} alt="fuzzy" />
+              <img className="w-[100px] lg:w-[141px]" src={fuzzy} alt="fuzzy" />
             </div>
             <div className="flex text-center justify-center mt-10">
               <h3 className="text-white font-medium text-md font-Manrope">
@@ -236,7 +236,7 @@ const Explore = () => {
               </p>
             </div>
             <div className="flex justify-center mt-10 pb-12">
-              <img src={unlock} alt="unlock" />
+              <img className="unlock_bg px-5 py-4" src={unlock} alt="unlock" />
             </div>
           </div>
         </div>

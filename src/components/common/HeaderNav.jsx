@@ -10,11 +10,8 @@ const HeaderNav = () => {
   } else {
     document.body.classList.add("overflow_hidden");
   }
-
   const [scrolling, setScrolling] = useState(false);
-
   useEffect(() => {
-    // Function to handle scroll events
     const handleScroll = () => {
       if (window.scrollY > 100) {
         setScrolling(true);
@@ -22,11 +19,7 @@ const HeaderNav = () => {
         setScrolling(false);
       }
     };
-
-    // Add the scroll event listener when the component mounts
     window.addEventListener("scroll", handleScroll);
-
-    // Clean up the event listener when the component unmounts
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -38,7 +31,7 @@ const HeaderNav = () => {
           <div className="container xl:w-[1140px] 2xl:w-[1320px]  px-3 sm:px-5 xl:px-0 mx-auto">
             <nav className="flex justify-between items-center py-4">
               <div className="cursor-pointer flex items-center w-full lg:w-fit ">
-                <img className="max-w-[220px]" src={Logo} alt="logo" />
+                <img className="w-[220px] h-[60px]" src={Logo} alt="Logo" />
                 <li className='relative after:content-[""] after:w-full after:h-[1px]  after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 duration-300 after:bg-white after:absolute after:bottom-0 after:left-0 hidden sm:block  lg:hidden ms-auto me-8'>
                   <input
                     type="text"
@@ -57,7 +50,7 @@ const HeaderNav = () => {
                 <li>
                   <Link
                     onClick={() => setShowNavbar(true)}
-                    className='font-Inter lg:me-8 mb-10 lg:mb-0  text-white font-Open text-[4vw] sm:text-[3vw] md:text-[2vw] lg:text-sm font-normal inline-block  relative after:content-[""] after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 duration-300 after:bg-white after:absolute after:bottom-[-3px] hover:after:w-full hover:after:left-0 after:left-[50%] leading-normal opacity-[0.7] hover:opacity-[1]'
+                    className='font-Inter lg:me-8 mb-10 lg:mb-0  text-white font-Open text-[5vw] sm:text-[3vw] md:text-[2vw] lg:text-sm font-normal inline-block  relative after:content-[""] after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 duration-300 after:bg-white after:absolute after:bottom-[-3px] hover:after:w-full hover:after:left-0 after:left-[50%] leading-normal opacity-[0.7] hover:opacity-[1]'
                     to="/"
                   >
                     About
@@ -66,7 +59,7 @@ const HeaderNav = () => {
                 <li>
                   <Link
                     onClick={() => setShowNavbar(true)}
-                    className='font-Inter lg:me-8 mb-10 lg:mb-0 font-Open text-white text-[4vw] sm:text-[3vw] md:text-[2vw] lg:text-sm hover:text-white font-normal inline-block  relative after:content-[""] after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 duration-300 after:bg-white after:absolute after:bottom-[-3px] hover:after:w-full hover:after:left-0 after:left-[50%] leading-normal opacity-[0.7] hover:opacity-[1] '
+                    className='font-Inter lg:me-8 mb-10 lg:mb-0 font-Open text-white text-[5vw] sm:text-[3vw] md:text-[2vw] lg:text-sm hover:text-white font-normal inline-block  relative after:content-[""] after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 duration-300 after:bg-white after:absolute after:bottom-[-3px] hover:after:w-full hover:after:left-0 after:left-[50%] leading-normal opacity-[0.7] hover:opacity-[1] '
                     to="/Invest"
                   >
                     How it Works
@@ -75,7 +68,7 @@ const HeaderNav = () => {
                 <li>
                   <Link
                     onClick={() => setShowNavbar(true)}
-                    className='font-Inter mb-12 lg:mb-0 font-Open text-white text-[4vw] sm:text-[3vw] md:text-[2vw] lg:text-sm hover:text-white font-normal inline-block  relative after:content-[""] after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 duration-300 after:bg-white after:absolute after:bottom-[-3px] hover:after:w-full hover:after:left-0 after:left-[50%] leading-normal opacity-[0.7] hover:opacity-[1] '
+                    className='font-Inter mb-12 lg:mb-0 font-Open text-white text-[5vw] sm:text-[3vw] md:text-[2vw] lg:text-sm hover:text-white font-normal inline-block  relative after:content-[""] after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 duration-300 after:bg-white after:absolute after:bottom-[-3px] hover:after:w-full hover:after:left-0 after:left-[50%] leading-normal opacity-[0.7] hover:opacity-[1] '
                     to="/cofounder"
                   >
                     Blog

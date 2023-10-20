@@ -41,7 +41,7 @@ const HeroSection = () => {
               exit with the best valuation guarantee. Most of our partners are
               indie developers, studios and companies.
             </div>
-            <div className="pb-14 sm:pb-0 lg:pb-20 ">
+            <div className="pb-14 sm:pb-0 xl:pb-20 ">
               <button
                 aria-label="Sell Your App"
                 className=" text-white text-xsm md:text-sm font-bold font-Manrope leading-[170%] inline-block  py-3 px-8 md:px-10 md:py-4 bg-gradient-to-r from-red-500 to-indigo-600 hover:to-red-500 hover:from-indigo-600 rounded-[38px] transition-all ease-linear duration-300 "
@@ -70,13 +70,14 @@ const HeroSection = () => {
                 <img
                   className=" h-[60px] rounded-full w-[60px]"
                   src={Hero_A_Svg}
+                  alt="A Tag Image"
                 />
                 <div className="max-w-[109.45px] text-white text-xsm md:text-sm  font-normal font-Inter leading-[170%]">
                   We Buy Your iOS Apps
                 </div>
               </div>
               <img
-                className="md:w-[70%] lg:w-[80%] xl:w-full xl:h-[554px] mx-auto xl:translate-x-[10%] min-h-[280px]"
+                className=" mx-auto w-auto xl:translate-x-[10%] sm:w-[600px] sm:h-[500px] lg:w-[750px] lg:h-[570px] xl:h-[554px]  xl:w-[570px] 2xl:w-[600px]"
                 src={Hero_Men_img}
                 alt="Hero_Men_img"
               />

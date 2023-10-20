@@ -23,7 +23,7 @@ function LoaderHome() {
         >
           <div className="flex justify-center">
             <div className=" relative flex justify-center items-center">
-              <img className="w-[100px] Preloader_img animation_preloader mx-auto " src={Preloader_img} alt="" />
+              <img className="w-[100px] Preloader_img animation_preloader mx-auto " src={Preloader_img} alt=" Preloader_img" />
             </div>
           </div>
         </section>
