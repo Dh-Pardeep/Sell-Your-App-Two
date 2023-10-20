@@ -36,7 +36,7 @@ const HeroSection = () => {
           <div className='w-full xl:w-6/12 ' data-aos="fade-left" data-aos-duration="700" data-aos-delay="3000" data-aos-easing="linear">
             <div className='relative'>
               <div ref={tiltRef} data-tilt className="p-3 lg:p-6 bg-white bg-opacity-5 rounded-2xl border border-white border-opacity-30 backdrop-blur-[51.14px] justify-center items-start gap-[32.73px] inline-flex sm:absolute bottom-40 left-8 md:left-24 md:bottom-28 lg:left-48 lg:bottom-52 xl:bottom-40 xl:left-10 z-10 mb-10  sm:mb-0 cursor-pointer" data-aos="fade-right" data-aos-duration="700" data-aos-delay="3000" data-aos-easing="linear">
-                <img className=" h-[60px] rounded-full w-[60px]" src={Hero_A_Svg} />
+                <img className=" h-[60px] rounded-full w-[60px]" src={Hero_A_Svg}  alt='A Tag Image'/>
                 <div className="max-w-[109.45px] text-white text-xsm md:text-sm  font-normal font-Inter leading-[170%]">We Buy Your iOS Apps</div>
               </div >
               <img className='md:w-[70%] lg:w-[80%] xl:w-full xl:h-[554px] mx-auto xl:translate-x-[10%] min-h-[280px]' src={Hero_Men_img} alt="Hero_Men_img" />

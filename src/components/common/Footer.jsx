@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../../assets/img/webp/logo.webp";
-import line from "../../assets/img/webp/line.webp";
 import { BolIcon, InstagramIcon, MessageIcon } from "./Icon";
 
 const Footer = () => {
@@ -11,7 +10,7 @@ const Footer = () => {
           <div className="flex  justify-center lg:justify-start">
             <div className=" lg:max-w-[372px] pt-14 lg:pt-[70px]">
               <div className="flex justify-center lg:justify-start">
-                <img className="max-h-[240px] cursor-pointer" src={logo} alt="logo" />
+                <img className="w-[240px] h-[56px] cursor-pointer" src={logo} alt="logo" />
               </div>
               <p className="opacity-70 text-center lg:text-start text-white text-sm font-normal font-Inter leading-7 mt-6">
                 SellYourApp is an Appstun organization. Appstun is a global
@@ -61,12 +60,12 @@ const Footer = () => {
                 Information
               </li>
               <li>
-                <a className="opacity-80 text-white hover:opacity-60 inline-block font-Inter cursor-pointer mb-0 font-medium text-sm mt-4">
+                <a href="#" className="opacity-80 text-white hover:opacity-60 inline-block font-Inter cursor-pointer mb-0 font-medium text-sm mt-4">
                   Contact
                 </a>
               </li>
               <li>
-                <a className="opacity-80 text-white hover:opacity-60 inline-block font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
+                <a href="#" className="opacity-80 text-white hover:opacity-60 inline-block font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
                   support@appstun.com
                 </a>
               </li>
@@ -74,7 +73,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="lg:mt-4 mt-12">
-          <img className="w-full" src={line} alt="line" />
+        <div className="w-full h-px opacity-60 bg-gradient-to-b from-red-500 to-indigo-600 rounded-[106px]" />
         </div>
         <div className="flex text-center justify-center sm:py-6 py-4">
           <p className="flex items-center opacity-70 text-white text-sm font-normal font-Inter leading-7 ">

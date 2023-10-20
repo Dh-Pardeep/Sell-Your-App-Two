@@ -91,7 +91,7 @@ const Explore = () => {
               alt="shadow"
             />
             <div className="flex justify-center pt-10 lg:pt-20">
-              <img className="w-[100px] lg:w-[141px]" src={clock} alt="clock" />
+              <img className="w-[100px] h-[100px] lg:h-[140px] lg:w-[140px]" src={clock} alt="clock" />
             </div>
             <div className="flex text-center justify-center mt-10">
               <h3 className="text-white font-medium text-md font-Manrope">
@@ -109,7 +109,7 @@ const Explore = () => {
               </p>
             </div>
             <div className="flex justify-center mt-10 pb-12">
-              <img className="unlock_bg px-5 py-4" src={unlock} alt="unlock" />
+              <img className="unlock_bg px-5 py-4 w-[88px] h-[74px]" src={unlock} alt="unlock" />
             </div>
           </div>
           <div ref={card2Ref} data-tilt className="  max-w-[500px] border border-[#3c2c47] px-4 w-full mt-[54px] lg:mt-0 overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="700" data-aos-easing="linear">
@@ -119,7 +119,7 @@ const Explore = () => {
               alt="shadow2"
             />
             <div className="flex justify-center pt-10 lg:pt-20">
-              <img className="w-[100px] lg:w-[141px]" src={phone} alt="phone" />
+              <img className="w-[100px] h-[100px] lg:h-[140px] lg:w-[140px]" src={phone} alt="phone" />
             </div>
             <div className="flex text-center justify-center mt-10">
               <h3 className="text-white font-medium text-md font-Manrope">
@@ -137,7 +137,7 @@ const Explore = () => {
               </p>
             </div>
             <div className="flex justify-center mt-10 pb-12">
-              <img className="unlock_bg px-5 py-4" src={unlock} alt="unlock" />
+              <img className="unlock_bg px-5 py-4 w-[88px] h-[74px]" src={unlock} alt="unlock" />
             </div>
           </div>
         </div>
@@ -146,10 +146,10 @@ const Explore = () => {
             <img
               className="absolute bottom-0 right-0 w-full"
               src={shadow3}
-              alt=""
+              alt="shadow3"
             />
             <div className="flex justify-center pt-10 lg:pt-20">
-              <img className="w-[100px] lg:w-[141px]" src={bag} alt="bag" />
+              <img className="w-[100px] h-[100px] lg:h-[140px] lg:w-[140px]" src={bag} alt="bag" />
             </div>
             <div className="flex text-center justify-center mt-10">
               <h3 className="text-white font-medium text-md font-Manrope">
@@ -168,7 +168,7 @@ const Explore = () => {
               </p>
             </div>
             <div className="flex justify-center mt-10 pb-12">
-              <img className="unlock_bg px-5 py-4" src={unlock} alt="unlock" />
+              <img className="unlock_bg px-5 py-4 w-[88px] h-[74px]" src={unlock} alt="unlock" />
             </div>
           </div>
           <div ref={card4Ref} data-tilt className="max-w-[500px] border border-[#3c2c47] px-4 w-full mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="700" data-aos-easing="linear">
@@ -178,7 +178,7 @@ const Explore = () => {
               alt="shadow"
             />
             <div className="flex justify-center pt-10 lg:pt-20">
-              <img className="w-[100px] lg:w-[141px]" src={fuzzy} alt="fuzzy" />
+              <img className="w-[100px] h-[100px] lg:h-[140px] lg:w-[140px]" src={fuzzy} alt="fuzzy" />
             </div>
             <div className="flex text-center justify-center mt-10">
               <h3 className="text-white font-medium text-md font-Manrope">
@@ -196,12 +196,12 @@ const Explore = () => {
               </p>
             </div>
             <div className="flex justify-center mt-10 pb-12">
-              <img className="unlock_bg px-5 py-4" src={unlock} alt="unlock" />
+              <img className="unlock_bg px-5 py-4 w-[88px] h-[74px]" src={unlock} alt="unlock" />
             </div>
           </div>
         </div>
         <div className="flex justify-center mt-14 sm:mt-20 md:mt-28 lg:mt-[140px]" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
-          <img className="max-h-[240px]" src={logo} alt="logo" />
+          <img className="w-[240px] h-[56px]" src={logo} alt="logo" />
         </div>
         <div className="flex justify-center mt-[18px]" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
           <p className="text-sm font-normal font-Inter text-white opacity-70">
