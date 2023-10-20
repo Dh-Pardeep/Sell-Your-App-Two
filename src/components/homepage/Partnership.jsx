@@ -12,7 +12,8 @@ const Partnership = () => {
                         <p className='leading-[170%] font-Inter text-xsm lg:text-sm font-normal text-white opacity-70 text-center lg:text-start lg:mb-4 lg:max-w-[424px]'>Escrow.com is the world’s most secure payment method from a counterparty risk perspective - safeguarding both buyer and seller, all funds transacted using escrow are kept in trust.</p>
                     </div>
                     <div className='lg:mt-0 mt-6' data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
-                        <img className='min-h-[200px] min-w-[327px] hover:scale-[1.01] transition duration-400 ease-linear cursor-pointer' src={phone_img} alt="phone_img" />
+                        <img className='hover:scale-[1.01] transition duration-400 ease-linear cursor-pointer min-h-[200px] min-w-[296px] sm:w-[580px] sm:h-[330px]  md:w-[600px] md:h-[340px] 2xl:w-full 2xl:h-full' src={phone_img} alt="phone_img" />
+                        {/* <img className='hover:scale-[1.01] transition duration-400 ease-linear cursor-pointer min-h-[200px] sm:w-[580px] h-[330px] sm:w-[580px] h-[330px] md:w-[600px] md:h-[340px]' src={phone_img} alt="phone_img" /> */}
                     </div>
                 </div>
                 <div className='flex xl:gap-10 gap-5 justify-center xl:flex-nowrap flex-wrap' data-aos="zoom-up" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
