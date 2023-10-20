@@ -5,8 +5,8 @@ const AboutYou = () => {
         <div className='my-14 md:my-20  lg:my-0 lg:py-[104px]' data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear" id='Sale_process'>
             <div className='container mx-auto flex justify-center xl:w-[1140px] 2xl:w-[1320px] px-3 sm:px-5 xl:px-0'>
                 <div className='relative about_bg sm:p-10 px-3 py-7 w-[922px] rounded-[40px]'>
-                    <div className='absolute top-2 left-4 sm:w-[193px] w-[100px] sm:h-[195px] h-[100px] rounded-[137px] opacity-50 about_ellipse blur-[63px]'></div>
-                    <div className='absolute bottom-2 right-4 sm:w-[193px] sm:h-[195px] rounded-[137px] opacity-50 about_ellipse blur-[63px]'></div>
+                    <div className='absolute top-2 left-4 sm:w-[193px] w-[100px] sm:h-[195px] h-[100px] rounded-[137px] opacity-50 about_ellipse blur-[70px]'></div>
+                    <div className='absolute bottom-2 right-4 sm:w-[193px] sm:h-[195px] rounded-[137px] opacity-50 about_ellipse blur-[77.5px]'></div>
                     <h2 className="text-dark text-center text-[24px] md:text-[28px] lg:text-[30px] xl:text-lg font-medium mb-4 font-Manrope ">Tell us about your app</h2>
                     <p className='leading-[170%] text-center text-xsm md:text-sm font-normal text-dark opacity-70 sm:mb-[44px] mb-4 font-Inter max-w-[890px]'> If you have a non-gaming ios app with 5000+ monthly downloads and it's been on the App Store for more than a year, we're interested in buying it!</p>
                     <div className='sm:px-[23px]'>

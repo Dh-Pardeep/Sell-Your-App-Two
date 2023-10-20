@@ -14,7 +14,6 @@ const Partnership = () => {
                     </div>
                     <div className='lg:mt-0 mt-6' data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
                         <img className='hover:scale-[1.01] transition duration-400 ease-linear cursor-pointer min-h-[200px] min-w-[296px] sm:w-[580px] sm:h-[330px]  md:w-[600px] md:h-[340px] 2xl:w-full 2xl:h-full' src={phone_img} alt="phone_img" />
-                        {/* <img className='hover:scale-[1.01] transition duration-400 ease-linear cursor-pointer min-h-[200px] sm:w-[580px] h-[330px] sm:w-[580px] h-[330px] md:w-[600px] md:h-[340px]' src={phone_img} alt="phone_img" /> */}
                     </div>
                 </div>
                 <div className='flex xl:gap-10 gap-5 justify-center xl:flex-nowrap flex-wrap' data-aos="zoom-up" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">

@@ -25,7 +25,7 @@ const HeroSection = () => {
       <div className="absolute -right-60 w-[545px] h-[878px] origin-top-left rotate-[26.13deg] bg-red-500 bg-opacity-20 blur-[270px]" />
       <HeaderNav />
       <div className="container xl:w-[1140px] 2xl:w-[1320px]  px-3 sm:px-5 xl:px-0 mx-auto">
-        <div className='mt-44 sm:mt-52 lg:mt-60 flex flex-col xl:flex-row relative z-20'>
+        <div className='mt-32 sm:mt-44 lg:mt-52 xl:mt-60 flex flex-col xl:flex-row relative z-20'>
           <div className='w-full xl:w-6/12 xl:mt-16' data-aos="fade-right" data-aos-duration="700" data-aos-delay="3000" data-aos-easing="linear">
             <div className="xl:max-w-[560px] text-white text-lg sm:text-[40px] md:text-[46px] lg:text-[52px] xl:text-xl font-bold leading-normal font-Manrope">Selling Mobile Apps Made Simple.</div>
             <div className="xl:max-w-[556px] opacity-70 text-white text-xsm md:text-sm font-normal font-Inter leading-[170%] pt-4 pb-12">Looking to sell your mobile app? We buy iOS apps in different categories and revenue levels. We promise 14 days from contact to exit with the best valuation guarantee. Most of our partners are indie developers, studios and companies.</div>
@@ -39,7 +39,8 @@ const HeroSection = () => {
                 <img className=" h-[60px] rounded-full w-[60px]" src={Hero_A_Svg}  alt='A Tag Image'/>
                 <div className="max-w-[109.45px] text-white text-xsm md:text-sm  font-normal font-Inter leading-[170%]">We Buy Your iOS Apps</div>
               </div >
-              <img className=' mx-auto w-auto xl:translate-x-[10%] sm:w-[600px] sm:h-[500px] lg:w-[750px] lg:h-[570px] xl:h-[554px]  xl:w-[570px] 2xl:w-[600px]' src={Hero_Men_img} alt="Hero_Men_img" />
+              {/* <img className=' mx-auto w-auto  sm:w-[600px] sm:h-[500px] lg:w-[750px] lg:h-[570px] xl:h-fill xl:w-full' src={Hero_Men_img} alt="Hero_Men_img" /> */}
+              <img className='md:w-[70%] lg:w-[80%] xl:w-full xl:h-[554px] mx-auto xl:translate-x-[10%] min-h-[280px]' src={Hero_Men_img} alt="Hero_Men_img" />
             </div>
           </div>
         </div>
