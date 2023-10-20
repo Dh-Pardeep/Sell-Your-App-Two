@@ -28,7 +28,7 @@ const WhyUs = () => {
                 <div className="sm:flex gap-7 xl:gap-10 2xl:gap-[50px]">
                   <div className="mt-12 lg:mt-20 "  data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
                     <div className="flex justify-center">
-                      <img className="max-w-[133px]" src={great} alt="cash" />
+                      <img className="w-[133px] h-[82px]" src={great} alt="cash" />
                     </div>
                     <p className="text-center mt-5 opacity-70 text-white font-Inter font-normal text-sm max-w-[220px]">
                       We guarantee 14 days from contact to exit
@@ -37,7 +37,7 @@ const WhyUs = () => {
                   <div className="flex justify-center">
                     <div className="mt-12 lg:mt-20 "  data-aos="zoom-in" data-aos-duration="700" data-aos-delay="600" data-aos-easing="linear">
                       <div className="flex justify-center">
-                        <img className="max-w-[133px]" src={cash} alt="cash" />
+                        <img className="w-[133px] h-[82px]" src={cash} alt="cash" />
                       </div>
                       <p className="text-center mt-5 opacity-70 text-white font-Inter font-normal text-sm max-w-[220px]">
                         Full cash offer, get paid immediately
@@ -49,7 +49,7 @@ const WhyUs = () => {
               <div className="flex justify-center">
                 <div className="mt-12 lg:mt-20 "  data-aos="zoom-in" data-aos-duration="700" data-aos-delay="700" data-aos-easing="linear">
                   <div className="flex justify-center">
-                    <img className="max-w-[133px]" src={price} alt="cash" />
+                    <img className="w-[133px] h-[82px]" src={price} alt="cash" />
                   </div>
                   <p className="text-center mt-5 opacity-70 text-white font-Inter font-normal text-sm max-w-[220px]">
                     Best price/valuation guarantee
@@ -62,7 +62,7 @@ const WhyUs = () => {
             <div className="sm:flex gap-7 xl:gap-10 2xl:gap-[50px]">
               <div className="mt-12 lg:mt-20 "  data-aos="zoom-in" data-aos-duration="700" data-aos-delay="800" data-aos-easing="linear">
                 <div className="flex justify-center">
-                  <img className="max-w-[133px]" src={vibes} alt="cash" />
+                  <img className="w-[133px] h-[82px]" src={vibes} alt="cash" />
                 </div>
                 <p className="text-center mt-5 opacity-70 text-white font-Inter font-normal text-sm max-w-[220px]">
                   Good vibes only. We value human connections.
@@ -71,7 +71,7 @@ const WhyUs = () => {
               <div className="flex justify-center">
                 <div className="mt-12 lg:mt-20 "  data-aos="zoom-in" data-aos-duration="700" data-aos-delay="900" data-aos-easing="linear">
                   <div className="flex justify-center">
-                    <img className="max-w-[133px]" src={process} alt="cash" />
+                    <img className="w-[133px] h-[82px]" src={process} alt="cash" />
                   </div>
                   <p className="text-center mt-5 opacity-70 text-white font-Inter font-normal text-sm max-w-[220x]">
                     Simple process, zero complexity
@@ -83,7 +83,7 @@ const WhyUs = () => {
         </div>
         <div className="flex justify-center mt-16 lg:mt-20">
           <div className="px-10 cursor-pointer rounded-[38px] py-4 inline-block bg-gradient-to-r from-red-500 to-indigo-600 hover:from-indigo-800 hover:to-red-700 delay-1000">
-            <button aria-label='Sell Your App' className="text-white font-Manrope font-bold text-sm ">
+            <button aria-label='SellYourApp' className="text-white font-Manrope font-bold text-sm ">
               SellYourApp
             </button>
           </div>
