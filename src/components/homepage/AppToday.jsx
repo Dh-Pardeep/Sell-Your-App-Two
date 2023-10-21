@@ -23,7 +23,7 @@ const AppToday = () => {
         </div>
         <div className="bg-[#4f44ec] flex items-center lg:h-[450px] w-full rounded-3xl" >
           <div className="w-full bg-card border border-[#C0ACE8] py-10 px-6">
-            <div className="lg:flex gap-6 mb-6">
+            <div className="md:flex gap-6 mb-6">
               <input
                 className=" px-2 w-full outline-none text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border-[1.4px] border-[rgba(39, 39, 39, 0.08)]"
                 type="text"
@@ -31,12 +31,12 @@ const AppToday = () => {
               />
               <input
                 required
-                className=" px-2 w-full outline-none text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border-[1.4px] border-[rgba(39, 39, 39, 0.08) lg:mt-0 mt-6"
+                className=" px-2 w-full outline-none text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border-[1.4px] border-[rgba(39, 39, 39, 0.08) md:mt-0 mt-6"
                 type="text"
                 placeholder="Your Email"
               />
             </div>
-            <div className="lg:flex gap-6 mb-6 flex-col sm:flex-row">
+            <div className="md:flex gap-6 mb-6 flex-col sm:flex-row">
               <input
                 required
                 className=" px-2 w-full outline-none text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border-[1.4px] border-[rgba(39, 39, 39, 0.08)"
@@ -44,7 +44,7 @@ const AppToday = () => {
                 placeholder="Revenue Last Month"
               />
               <input
-                className=" px-2 w-full outline-none text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border-[1.4px] border-[rgba(39, 39, 39, 0.08) lg:mt-0 mt-6"
+                className=" px-2 w-full outline-none text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border-[1.4px] border-[rgba(39, 39, 39, 0.08) md:mt-0 mt-6"
                 type="text"
                 placeholder="Download Last Month"
               />

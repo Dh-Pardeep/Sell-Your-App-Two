@@ -4,7 +4,7 @@
 .about_bg {
     background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.04)), to(rgba(255, 255, 255, 0.04))), #d3d3d34a 50% / cover no-repeat;
     background: -o-linear-gradient(bottom, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.04) 100%), #d3d3d34a 50% / cover no-repeat;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.04) 100%), #d3d3d34a 50% / cover no-repeat;
+    background: linear-gradient(180deg, rgb(231 141 225 / 4%) 0%, #fff 74%), #eeecec4a 50% / cover no-repeat;
     -webkit-box-shadow: 4px 5px 65px 0px rgba(0, 0, 0, 0.06);
             box-shadow: 4px 5px 65px 0px rgba(0, 0, 0, 0.06);
 

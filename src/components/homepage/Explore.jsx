@@ -90,11 +90,11 @@ const Explore = () => {
               src={shadow1}
               alt="shadow"
             />
-            <div className="flex justify-center pt-10 lg:pt-20">
-              <img className="w-[100px] h-[100px] lg:h-[140px] lg:w-[140px]" src={clock} alt="clock" />
+            <div className="flex justify-center pt-8 lg:pt-20">
+              <img className="w-[80px] h-[80px] lg:h-[140px] lg:w-[140px]" src={clock} alt="clock" />
             </div>
-            <div className="flex text-center justify-center mt-10">
-              <h3 className="text-white font-medium text-md font-Manrope">
+            <div className="flex text-center justify-center mt-8 md:mt-10">
+              <h3 className="text-white font-medium text-sm md:text-md  font-Manrope">
                 iWatch Faces & Watch Wallpaper
               </h3>
             </div>
@@ -103,13 +103,13 @@ const Explore = () => {
                 Designed for iPad
               </p>
             </div>
-            <div className="flex justify-center text-center mt-[37px]">
+            <div className="flex justify-center text-center mt-7 md:mt-[37px]">
               <p className="text-white max-w-[342px] opacity-70 text-sm font-normal font-Inter">
                 Unlock the full potential of your Apple Watch with our faces
               </p>
             </div>
-            <div className="flex justify-center mt-10 pb-12">
-              <img className="unlock_bg px-5 py-4 w-[88px] h-[74px]" src={unlock} alt="unlock" />
+            <div className="flex justify-center mt-10 pb-8 md:pb-12">
+              <img className="unlock_bg px-5 py-4 w-[70px] h-[60px] md:w-[88px] md:h-[74px]" src={unlock} alt="unlock" />
             </div>
           </div>
           <div ref={card2Ref} data-tilt className="  max-w-[500px] border border-[#3c2c47] px-4 w-full mt-[54px] lg:mt-0 overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="700" data-aos-easing="linear">
@@ -118,11 +118,11 @@ const Explore = () => {
               src={shadow2}
               alt="shadow2"
             />
-            <div className="flex justify-center pt-10 lg:pt-20">
-              <img className="w-[100px] h-[100px] lg:h-[140px] lg:w-[140px]" src={phone} alt="phone" />
+            <div className="flex justify-center pt-8 lg:pt-20">
+              <img className="w-[80px] h-[80px] lg:h-[140px] lg:w-[140px]" src={phone} alt="phone" />
             </div>
-            <div className="flex text-center justify-center mt-10">
-              <h3 className="text-white font-medium text-md font-Manrope">
+            <div className="flex text-center justify-center mt-8 md:mt-10">
+              <h3 className="text-white font-medium text-sm md:text-md  font-Manrope">
                 Record Phone Calls & Call Save
               </h3>
             </div>
@@ -131,13 +131,13 @@ const Explore = () => {
                 Designed for iPhone
               </p>
             </div>
-            <div className="flex justify-center text-center mt-[37px]">
+            <div className="flex justify-center text-center mt-7 md:mt-[37px]">
               <p className="text-white opacity-70 max-w-[342px] text-sm font-normal font-Inter">
                 Automatically record your phone calls with a single click
               </p>
             </div>
-            <div className="flex justify-center mt-10 pb-12">
-              <img className="unlock_bg px-5 py-4 w-[88px] h-[74px]" src={unlock} alt="unlock" />
+            <div className="flex justify-center mt-10 pb-8 lg:pb-12">
+              <img className="unlock_bg px-5 py-4 w-[70px] h-[60px] md:w-[88px] md:h-[74px]" src={unlock} alt="unlock" />
             </div>
           </div>
         </div>
@@ -148,11 +148,11 @@ const Explore = () => {
               src={shadow3}
               alt="shadow3"
             />
-            <div className="flex justify-center pt-10 lg:pt-20">
-              <img className="w-[100px] h-[100px] lg:h-[140px] lg:w-[140px]" src={bag} alt="bag" />
+            <div className="flex justify-center pt-8 lg:pt-20">
+              <img className="w-[80px] h-[80px] lg:h-[140px] lg:w-[140px]" src={bag} alt="bag" />
             </div>
-            <div className="flex text-center justify-center mt-10">
-              <h3 className="text-white font-medium text-md font-Manrope">
+            <div className="flex text-center justify-center mt-8 md:mt-10">
+              <h3 className="text-white font-medium text-sm md:text-md  font-Manrope">
                 Mobile Print - Wifi & Remote
               </h3>
             </div>
@@ -161,14 +161,14 @@ const Explore = () => {
                 Designed for iPad
               </p>
             </div>
-            <div className="flex justify-center text-center mt-[37px]">
+            <div className="flex justify-center text-center mt-7 md:mt-[37px]">
               <p className="text-white max-w-[342px] opacity-70 text-sm font-normal font-Inter">
                 rint any file from your mobile phone with ease. Fast and
                 convenient
               </p>
             </div>
-            <div className="flex justify-center mt-10 pb-12">
-              <img className="unlock_bg px-5 py-4 w-[88px] h-[74px]" src={unlock} alt="unlock" />
+            <div className="flex justify-center mt-10 pb-8 md:pb-12">
+              <img className="unlock_bg px-5 py-4 w-[70px] h-[60px] md:w-[88px] md:h-[74px]" src={unlock} alt="unlock" />
             </div>
           </div>
           <div ref={card4Ref} data-tilt className="max-w-[500px] border border-[#3c2c47] px-4 w-full mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="700" data-aos-easing="linear">
@@ -177,11 +177,11 @@ const Explore = () => {
               src={shadow4}
               alt="shadow"
             />
-            <div className="flex justify-center pt-10 lg:pt-20">
-              <img className="w-[100px] h-[100px] lg:h-[140px] lg:w-[140px]" src={fuzzy} alt="fuzzy" />
+            <div className="flex justify-center pt-8 lg:pt-20">
+              <img className="w-[80px] h-[80px] lg:h-[140px] lg:w-[140px]" src={fuzzy} alt="fuzzy" />
             </div>
-            <div className="flex text-center justify-center mt-10">
-              <h3 className="text-white font-medium text-md font-Manrope">
+            <div className="flex text-center justify-center mt-8 md:mt-10">
+              <h3 className="text-white font-medium text-sm md:text-md font-Manrope">
                 Fuzzy: Text Customizer & Color
               </h3>
             </div>
@@ -190,13 +190,13 @@ const Explore = () => {
                 Designed for iPad/iPhone
               </p>
             </div>
-            <div className="flex justify-center text-center mt-[37px]">
-              <p className="text-white opacity-70 max-w-[342px] text-sm font-normal font-Inter">
+            <div className="flex justify-center text-center mt-7 md:mt-[37px]">
+              <p className="text-white max-w-[342px] opacity-70 text-sm font-normal font-Inter">
                 Customize any text and read faster! Discover Fuzzy’s power!
               </p>
             </div>
-            <div className="flex justify-center mt-10 pb-12">
-              <img className="unlock_bg px-5 py-4 w-[88px] h-[74px]" src={unlock} alt="unlock" />
+            <div className="flex justify-center mt-10 pb-8 md:pb-12">
+              <img className="unlock_bg px-5 py-4 w-[70px] h-[60px] md:w-[88px] md:h-[74px]" src={unlock} alt="unlock" />
             </div>
           </div>
         </div>
