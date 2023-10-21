@@ -66,7 +66,7 @@ const HeroSection = () => {
                 </div>
               </div>
               <img
-                className=" mx-auto w-auto xl:translate-x-[10%] sm:w-[600px] sm:h-[500px] lg:w-[750px] lg:h-[570px] xl:h-[554px]  xl:w-[570px] 2xl:w-[600px]"
+                className=" mx-auto min-w-[315px] min-h-[261px] xl:translate-x-[10%] sm:w-[600px] sm:h-[500px] lg:w-[750px] lg:h-[570px] xl:h-[554px]  xl:w-[570px] 2xl:w-[600px]"
                 src={Hero_Men_img}
                 alt="Hero_Men_img"
               />

@@ -10,7 +10,7 @@ const AboutUs = () => {
         src={about_vector}
         alt="shadow"
       />
-      <div className="container mx-auto">
+      <div className="container mx-auto xl:w-[1140px] 2xl:w-[1320px] px-3 sm:px-5 xl:px-0">
         <div className="w-full flex flex-col lg:flex-row">
           <div
             className="w-full lg:w-6/12 lg:mb-0 mb-10"

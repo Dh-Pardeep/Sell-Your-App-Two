@@ -52,7 +52,6 @@ const Partnership = () => {
               src={phone_img}
               alt="phone_img"
             />
-            {/* <img className='hover:scale-[1.01] transition duration-400 ease-linear cursor-pointer min-h-[200px] sm:w-[580px] h-[330px] sm:w-[580px] h-[330px] md:w-[600px] md:h-[340px]' src={phone_img} alt="phone_img" /> */}
           </div>
         </div>
         <div

@@ -72,7 +72,7 @@ const Explore = () => {
       className="bg-Hero-bg pb-14 md:pb-20 lg:pb-14 pt-12 sm:pt-16 lg:pt-[75px] mt-[-2px]"
       id="Our_app"
     >
-      <div className="container xl:w-[1140px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 ">
+      <div className="container xl:w-[1140px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
         <div className="flex justify-center">
           <h3 className="text-white text-lg font-medium font-Manrope">
             Explore Our Apps
