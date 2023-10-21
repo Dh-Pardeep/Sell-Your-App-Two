@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Preloader_img from '../../assets/img/svg/Favicon.svg'
+import Preloader_img from "../../assets/img/svg/Favicon.svg";
 function LoaderHome() {
   const [loder, setloader] = useState(true);
   useEffect(() => {
@@ -23,7 +23,11 @@ function LoaderHome() {
         >
           <div className="flex justify-center">
             <div className=" relative flex justify-center items-center">
-              <img className="w-[100px] Preloader_img animation_preloader mx-auto " src={Preloader_img} alt=" Preloader_img" />
+              <img
+                className="w-[100px] Preloader_img animation_preloader mx-auto "
+                src={Preloader_img}
+                alt=" Preloader_img"
+              />
             </div>
           </div>
         </section>
