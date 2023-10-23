@@ -1,5 +1,5 @@
 import React from 'react'
-import { AgreementsvgIcon, ClosingIcon, ContactIcon, OfferIcon, ReviewHow } from '../common/Icon'
+import { AgreementIcon, ClosingIcon, ContactIcon, OfferIcon, ReviewHow } from '../common/Icon'
 
 const HowWork = () => {
     return (
@@ -83,7 +83,7 @@ const HowWork = () => {
                                 <div className=" w-14 md:w-16  h-14 md:h-16 p-[13px] bg-gradient-to-r from-red-500 to-indigo-600 rounded-[54px] border  justify-center items-center inline-flex ">
                                     <div className="w-[38px] h-[38px] relative flex-col justify-start items-center flex">
                                         <div className=" md:w-[32px]  md:h-[30px] relative">
-                                            <AgreementsvgIcon />
+                                            <AgreementIcon />
                                         </div>
                                     </div>
                                 </div>
