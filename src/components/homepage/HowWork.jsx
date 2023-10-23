@@ -1,5 +1,5 @@
 import React from 'react'
-import { AgreementIcon, ClosingIcon, ContactIcon, OfferIcon, ReviewHow } from '../common/Icon'
+import { AgreementsvgIcon, ClosingIcon, ContactIcon, OfferIcon, ReviewHow } from '../common/Icon'
 
 const HowWork = () => {
     return (
@@ -79,11 +79,11 @@ const HowWork = () => {
                                 <div className=" flex flex-col items-center justify-center firstDay"><h2 className=" text-sm md:text-xmd font-medium leading-normal font-Manrope mt-1">7th<br /></h2><h2 className="leading-4 text-xsm md:text-sm font-normal font-Manrope">Day</h2></div>
                             </div>
                             <div className='flex lg:items-end flex-col ms-24 sm:ms-32 lg:ms-0  lg:me-28' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800" data-aos-easing="linear">
-                            <div className='flex items-center lg:flex-col gap-7 lg:gap-0 mb-4 lg:mb-0'>
+                            <div className='flex items-end lg:flex-col gap-7 lg:gap-0 mb-4 lg:mb-0'>
                                 <div className=" w-14 md:w-16  h-14 md:h-16 p-[13px] bg-gradient-to-r from-red-500 to-indigo-600 rounded-[54px] border  justify-center items-center inline-flex ">
-                                    <div className="w-[38px] h-[38px] relative flex-col justify-start items-start flex">
+                                    <div className="w-[38px] h-[38px] relative flex-col justify-start items-center flex">
                                         <div className=" md:w-[32px]  md:h-[30px] relative">
-                                            <AgreementIcon />
+                                            <AgreementsvgIcon />
                                         </div>
                                     </div>
                                 </div>
