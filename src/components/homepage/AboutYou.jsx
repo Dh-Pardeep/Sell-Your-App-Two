@@ -4,7 +4,7 @@ import { FormError, SendIcon, SendingIcon } from "../common/Icon";
 const AboutYou = () => {
   const [submitVal, setSubmitVal] = useState("Submit Now");
   const form = useRef();
-  const [resistration, setresistration] = useState({
+  const [registration, setRegistration] = useState({
     name: "",
     email: "",
     Revenue: "",
@@ -18,7 +18,7 @@ const AboutYou = () => {
     const value = e.target.value;
     const last = e.target.last;
     const textarea = e.target.textarea;
-    setresistration({ ...resistration, [name]: value });
+    setRegistration({ ...registration, [name]: value });
   };
   const [error, setError] = useState(false);
   const regex =
@@ -26,12 +26,12 @@ const AboutYou = () => {
   const FormSubmit = (e) => {
     e.preventDefault();
     if (
-      (resistration.name.trim() !== "",
-      resistration.email.trim() !== "",
-      resistration.url.trim() !== "",
-      resistration.last.trim() !== "",
-      resistration.Revenue.trim() !== "",
-      regex.test(resistration.email))
+      (registration.name.trim() !== "",
+      registration.email.trim() !== "",
+      registration.url.trim() !== "",
+      registration.last.trim() !== "",
+      registration.Revenue.trim() !== "",
+      regex.test(registration.email))
     ) {
       setError(false);
       setSubmitVal("Sending");
@@ -44,7 +44,7 @@ const AboutYou = () => {
         )
         .then(() => {
           setSubmitVal("Sent");
-          setresistration({
+          setRegistration({
             name: "",
             email: "",
             Revenue: "",
@@ -88,17 +88,17 @@ const AboutYou = () => {
                   className="outline-none leading-[170%] px-2 w-full text-xsm md:text-sm font-normal opacity-90 text-black-light font-Inter bg-white h-[46px]  ps-[10px] pt-[2px] rounded-lg border border-[rgba(28_28_28_0.08)]"
                   type="text"
                   placeholder="Your Name"
-                  value={resistration.name}
+                  value={registration.name}
                   onChange={handleInput}
                   id="name"
                   name="name"
                 />
-                {error && resistration.name === "" ? (
+                {error && registration.name === "" ? (
                   <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1">
                     <FormError /> This field is required
                   </p>
                 ) : (
-                  resistration !== ""
+                  registration !== ""
                 )}
               </div>
               <div className="w-full">
@@ -106,17 +106,17 @@ const AboutYou = () => {
                   className="outline-none leading-[170%] px-2 w-full text-xsm md:text-sm font-normal opacity-90 text-black-light font-Inter bg-white h-[46px]  ps-[10px] pt-[2px]  rounded-lg border border-[rgba(28_28_28_0.08)]"
                   type="text"
                   placeholder="Your Email"
-                  value={resistration.email}
+                  value={registration.email}
                   onChange={handleInput}
                   id="Email"
                   name="email"
                 />
 
-                {error && resistration.email === "" ? (
+                {error && registration.email === "" ? (
                   <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 pointer-events-none h-[18px]">
                     <FormError /> This field is required"
                   </p>
-                ) : error && regex.test(resistration.email) === false ? (
+                ) : error && regex.test(registration.email) === false ? (
                   <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 pointer-events-none h-[18px]">
                     <FormError /> This field is required
                   </p>
@@ -131,17 +131,17 @@ const AboutYou = () => {
                   className="outline-none leading-[170%] px-2 w-full text-xsm md:text-sm font-normal opacity-90 text-black-light font-Inter bg-white h-[46px] ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[rgba(28_28_28_0.08)]"
                   type="text"
                   placeholder="Revenue Last Month"
-                  value={resistration.Revenue}
+                  value={registration.Revenue}
                   onChange={handleInput}
                   id="Revenue"
                   name="Revenue"
                 />
-                {error && resistration.Revenue === "" ? (
+                {error && registration.Revenue === "" ? (
                   <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 pointer-events-none h-[18px]">
                     <FormError /> This field is required
                   </p>
                 ) : (
-                  resistration !== ""
+                  registration !== ""
                 )}
               </div>
 
@@ -149,7 +149,7 @@ const AboutYou = () => {
                 className="outline-none leading-[170%] px-2 w-full text-xsm md:text-sm font-normal opacity-90 text-black-light font-Inter bg-white h-[46px]  ps-[10px] pt-[2px]  pb-[7px] rounded-lg border border-[rgba(28_28_28_0.08)]"
                 type="text"
                 placeholder="Download Last Month"
-                value={resistration.last}
+                value={registration.last}
                 onChange={handleInput}
                 id="last"
                 name="last"
@@ -160,17 +160,17 @@ const AboutYou = () => {
                 className="outline-none leading-[170%] px-2 w-full text-xsm md:text-sm font-normal opacity-90 text-black-light font-Inter bg-white h-[46px]  ps-[10px] pt-[2px] pb-[7px] rounded-lg border border-[rgba(28_28_28_0.08)]"
                 type="text"
                 placeholder="App URL..."
-                value={resistration.url}
+                value={registration.url}
                 onChange={handleInput}
                 id="url"
                 name="url"
               />
-              {error && resistration.url === "" ? (
+              {error && registration.url === "" ? (
                 <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 h-[18px] pointer-events-none">
                   <FormError /> This field is required
                 </p>
               ) : (
-                resistration !== ""
+                registration !== ""
               )}
             </div>
 
@@ -178,7 +178,7 @@ const AboutYou = () => {
               className="resize-none outline-none leading-[170%] px-2 w-full height-[74px] text-xsm md:text-sm font-normal opacity-90 text-black-light font-Inter bg-white ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[rgba(28_28_28_0.08)]"
               type="text"
               placeholder="Anything else you’d like us to know..."
-              value={resistration.textarea}
+              value={registration.textarea}
               onChange={handleInput}
               id="textarea"
               name="textarea"
