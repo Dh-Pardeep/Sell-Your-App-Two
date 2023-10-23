@@ -3,12 +3,12 @@ import AboutYou from "../homepage/AboutYou";
 import AboutUs from "../homepage/AboutUs";
 import WhyUs from "../homepage/WhyUs";
 import HeroSection from "../homepage/HeroSection";
-import HowWork from "../homepage/HowWork";
+// import HowWork from "../homepage/HowWork";
 import Partnership from "../homepage/Partnership";
 import AppToday from "../homepage/AppToday";
 import Explore from "../homepage/Explore";
 import BackToTop from "../common/BackToTop";
-import LoaderHome from "../common/LoaderHome";
+// import LoaderHome from "../common/LoaderHome";
 import Footer from "../common/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -21,11 +21,11 @@ const HomePage = () => {
   return (
     <div className="overflow-hidden">
       <BackToTop />
-      <LoaderHome />
+      {/* <LoaderHome /> */}
       <HeroSection />
       <AboutYou />
       <AboutUs />
-      <HowWork />
+      {/* <HowWork /> */}
       <Partnership />
       <AboutYou />
       <WhyUs />
