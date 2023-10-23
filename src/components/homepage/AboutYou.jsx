@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { FormError, SendIcon, SendingIcon } from "../common/Icon";
 const AboutYou = () => {
-  const [submitVal, setsubmitVal] = useState("Submit Now");
+  const [submitVal, setSubmitVal] = useState("Submit Now");
   const form = useRef();
   const [resistration, setresistration] = useState({
     name: "",
@@ -34,7 +34,7 @@ const AboutYou = () => {
       regex.test(resistration.email))
     ) {
       setError(false);
-      setsubmitVal("Sending");
+      setSubmitVal("Sending");
       emailjs
         .sendForm(
           "service_rhvi6ne",
@@ -43,7 +43,7 @@ const AboutYou = () => {
           "VdFIJa-Q4kIcZzKM7"
         )
         .then(() => {
-          setsubmitVal("Sent");
+          setSubmitVal("Sent");
           setresistration({
             name: "",
             email: "",
