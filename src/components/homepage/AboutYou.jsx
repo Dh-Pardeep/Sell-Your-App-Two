@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const AboutYou = () => {
     return (
         <div className='my-14 md:my-20  lg:my-0 lg:py-[104px]' data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500" data-aos-easing="linear">
