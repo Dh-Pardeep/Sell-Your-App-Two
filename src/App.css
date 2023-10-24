@@ -1,8 +1,8 @@
 
 /* =========ABOUTYOU============= */
 .about_bg {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.04)), to(rgba(255, 255, 255, 0.04))), #d3d3d34a 50% / cover no-repeat;
     background: -o-linear-gradient(bottom, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.04) 100%), #d3d3d34a 50% / cover no-repeat;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.04)), to(rgba(255, 255, 255, 0.04))), #d3d3d34a 50% / cover no-repeat;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.04) 100%), #d3d3d34a 50% / cover no-repeat;
     -webkit-box-shadow: 4px 5px 65px 0px rgba(0, 0, 0, 0.06);
             box-shadow: 4px 5px 65px 0px rgba(0, 0, 0, 0.06);
@@ -30,8 +30,8 @@
 
 .about_you_gradient {
     border-radius: 12px;
-    background: -webkit-gradient(linear, left top, left bottom, from(transparent));
     background: -o-linear-gradient(transparent);
+    background: -webkit-gradient(linear, left top, left bottom, from(transparent));
     background: linear-gradient(transparent);
     position: relative;
     background: transparent;
@@ -101,8 +101,8 @@
 .bg-card {
     border-radius: 24px;
     border: 1px solid #FFF;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.00)), color-stop(45.71%, rgba(255, 255, 255, 0.60)), to(rgba(255, 255, 255, 0.00)));
     background: -o-linear-gradient(top, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.60) 45.71%, rgba(255, 255, 255, 0.00) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.00)), color-stop(45.71%, rgba(255, 255, 255, 0.60)), to(rgba(255, 255, 255, 0.00)));
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.60) 45.71%, rgba(255, 255, 255, 0.00) 100%);
     -webkit-box-shadow: 4px 5px 65px 0px rgba(0, 0, 0, 0.06);
             box-shadow: 4px 5px 65px 0px rgba(0, 0, 0, 0.06);
@@ -114,8 +114,8 @@
   .bg-card-2 {
     border-radius: 24px;
     border: 1px solid rgba(255, 255, 255, 0.14);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(3.73%, rgba(255, 255, 255, 0.08)), to(rgba(255, 255, 255, 0.00)));
     background: -o-linear-gradient(top, rgba(255, 255, 255, 0.08) 3.73%, rgba(255, 255, 255, 0.00) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(3.73%, rgba(255, 255, 255, 0.08)), to(rgba(255, 255, 255, 0.00)));
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 3.73%, rgba(255, 255, 255, 0.00) 100%);
     -webkit-box-shadow: 0px 0px 40px 0px rgba(72, 68, 242, 0.04), 0px 0px 32px 0px rgba(72, 68, 242, 0.04) inset, 0px 0px 32px 0px rgba(255, 57, 57, 0.04) inset;
             box-shadow: 0px 0px 40px 0px rgba(72, 68, 242, 0.04), 0px 0px 32px 0px rgba(72, 68, 242, 0.04) inset, 0px 0px 32px 0px rgba(255, 57, 57, 0.04) inset;
@@ -172,8 +172,8 @@
 
 .entire_para_border {
     border-radius: 12px;
-    background: -webkit-gradient(linear, left top, left bottom, from(transparent));
     background: -o-linear-gradient(transparent);
+    background: -webkit-gradient(linear, left top, left bottom, from(transparent));
     background: linear-gradient(transparent);
     position: relative;
     background: white;
@@ -203,8 +203,8 @@
 .my_box {
     color: white;
     border-radius: 50%;
-    background: -webkit-gradient(linear, left top, left bottom, from(transparent));
     background: -o-linear-gradient(transparent);
+    background: -webkit-gradient(linear, left top, left bottom, from(transparent));
     background: linear-gradient(transparent);
     position: relative;
     padding: 5px;
@@ -345,7 +345,9 @@
                 transform: scale(0);
     }
 }
-
+.footer_hover:hover{
+    opacity: 0.5;
+}
 
 @media (max-width:1023.9px) {
     .nav_sm {

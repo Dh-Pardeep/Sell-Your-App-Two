@@ -34,16 +34,16 @@ const Footer = () => {
               <li className="text-white font-Inter font-medium text-sm mt-4">
                 Quick Links
               </li>
-              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
+              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3 footer_hover">
                 About
               </li>
-              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
+              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3 footer_hover">
                 App Sale process
               </li>
-              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
+              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3 footer_hover">
                 Why Us?
               </li>
-              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
+              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3 footer_hover">
                 Our App
               </li>
             </ul>
@@ -51,10 +51,10 @@ const Footer = () => {
               <li className="text-white font-Inter font-medium text-sm mt-4">
                 Information
               </li>
-              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
+              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3 footer_hover">
                 Contact
               </li>
-              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3">
+              <li className="opacity-80 text-white font-Inter cursor-pointer mb-0 font-medium text-sm mt-3 footer_hover">
                 support@appstun.com
               </li>
             </ul>
