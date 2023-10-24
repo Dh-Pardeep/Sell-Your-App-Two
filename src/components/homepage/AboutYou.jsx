@@ -53,6 +53,9 @@ const AboutYou = () => {
             textarea: "",
           });
         });
+      setTimeout(() => {
+        setSubmitVal("Submit Now");
+      }, 2000);
     } else {
       setError(true);
     }
