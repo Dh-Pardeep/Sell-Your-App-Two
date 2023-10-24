@@ -85,10 +85,10 @@ const AboutYou = () => {
             buying it!
           </p>
           <div className="sm:px-[23px]">
-            <div className="flex flex-col sm:flex-row sm:gap-6 gap-4 sm:mb-6 mb-4">
-              <div className="w-full">
+            <div className="flex flex-col sm:flex-row gap-6 sm:mb-6 mb-5">
+              <div className="w-full relative">
                 <input
-                  className="outline-none leading-[170%] px-2 w-full text-xsm md:text-sm font-normal opacity-90 text-black-light font-Inter bg-white h-[46px]  ps-[10px] pt-[2px] rounded-lg border border-[rgba(28_28_28_0.08)]"
+                  className="outline-none leading-[170%] px-2 w-full text-xsm md:text-sm font-normal opacity-90 text-[#A0A0A0] placeholder:text-[#A0A0A0] font-Inter bg-white h-[44px]  ps-[10px] pt-[2px] rounded-lg border border-[rgba(28_28_28_0.08)]"
                   type="text"
                   placeholder="Your Name"
                   value={registration.name}
@@ -97,16 +97,16 @@ const AboutYou = () => {
                   name="name"
                 />
                 {error && registration.name === "" ? (
-                  <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1">
+                  <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 absolute">
                     <FormError /> This field is required
                   </p>
                 ) : (
                   registration !== ""
                 )}
               </div>
-              <div className="w-full">
+              <div className="w-full relative">
                 <input
-                  className="outline-none leading-[170%] px-2 w-full text-xsm md:text-sm font-normal opacity-90 text-black-light font-Inter bg-white h-[46px]  ps-[10px] pt-[2px]  rounded-lg border border-[rgba(28_28_28_0.08)]"
+                  className="outline-none leading-[170%] px-2 w-full text-xsm md:text-sm font-normal opacity-90 text-black-light font-Inter bg-white h-[44px] ps-[10px] rounded-lg border border-[rgba(28_28_28_0.08)]"
                   type="text"
                   placeholder="Your Email"
                   value={registration.email}
@@ -116,11 +116,11 @@ const AboutYou = () => {
                 />
 
                 {error && registration.email === "" ? (
-                  <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 pointer-events-none h-[18px]">
-                    <FormError /> This field is required"
+                  <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 pointer-events-none h-[18px] absolute">
+                    <FormError /> This field is required
                   </p>
                 ) : error && regex.test(registration.email) === false ? (
-                  <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 pointer-events-none h-[18px]">
+                  <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 pointer-events-none h-[18px] absolute">
                     <FormError /> This field is required
                   </p>
                 ) : (
@@ -128,10 +128,10 @@ const AboutYou = () => {
                 )}
               </div>
             </div>
-            <div className="flex sm:gap-6 gap-4 sm:mb-6 mb-4 flex-col sm:flex-row">
-              <div className="w-full">
+            <div className="flex gap-6 sm:mb-6 mb-5 flex-col sm:flex-row">
+              <div className="w-full relative">
                 <input
-                  className="outline-none leading-[170%] px-2 w-full text-xsm md:text-sm font-normal opacity-90 text-black-light font-Inter bg-white h-[46px] ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[rgba(28_28_28_0.08)]"
+                  className="outline-none leading-[170%] px-2 w-full text-xsm md:text-sm font-normal opacity-90 text-black-light font-Inter bg-white h-[44px] ps-[10px] pt-[5px] pb-[6px] rounded-lg border border-[rgba(28_28_28_0.08)]"
                   type="text"
                   placeholder="Revenue Last Month"
                   value={registration.Revenue}
@@ -140,16 +140,15 @@ const AboutYou = () => {
                   name="Revenue"
                 />
                 {error && registration.Revenue === "" ? (
-                  <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 pointer-events-none h-[18px]">
+                  <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 pointer-events-none h-[18px] absolute">
                     <FormError /> This field is required
                   </p>
                 ) : (
                   registration !== ""
                 )}
               </div>
-
               <input
-                className="outline-none leading-[170%] px-2 w-full text-xsm md:text-sm font-normal opacity-90 text-black-light font-Inter bg-white h-[46px]  ps-[10px] pt-[7px]  pb-[7px] rounded-lg border border-[rgba(28_28_28_0.08)]"
+                className="outline-none leading-[170%] px-2 w-full text-xsm md:text-sm font-normal opacity-90 text-black-light font-Inter bg-white h-[44px]  ps-[10px] pt-[6px]  pb-[9px] rounded-lg border border-[rgba(28_28_28_0.08)]"
                 type="text"
                 placeholder="Download Last Month"
                 value={registration.last}
@@ -158,9 +157,9 @@ const AboutYou = () => {
                 name="last"
               />
             </div>
-            <div className="w-full mb-4 sm:mb-6 ">
+            <div className="w-full mb-5 sm:mb-6 relative">
               <input
-                className="outline-none leading-[170%] px-2 w-full text-xsm md:text-sm font-normal opacity-90 text-black-light font-Inter bg-white h-[46px]  ps-[10px] pt-[2px] pb-[7px] rounded-lg border border-[rgba(28_28_28_0.08)]"
+                className="outline-none leading-[170%] px-2 w-full text-xsm md:text-sm font-normal opacity-90 text-black-light font-Inter bg-white h-[44px]  ps-[10px] pt-[4px] pb-[7px] rounded-lg border border-[rgba(28_28_28_0.08)]"
                 type="text"
                 placeholder="App URL..."
                 value={registration.url}
@@ -169,16 +168,15 @@ const AboutYou = () => {
                 name="url"
               />
               {error && registration.url === "" ? (
-                <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 h-[18px] pointer-events-none">
+                <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 h-[18px] pointer-events-none absolute">
                   <FormError /> This field is required
                 </p>
               ) : (
                 registration !== ""
               )}
             </div>
-
             <textarea
-              className="resize-none outline-none leading-[170%] px-2 w-full height-[74px] text-xsm md:text-sm font-normal opacity-90 text-black-light font-Inter bg-white ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[rgba(28_28_28_0.08)]"
+              className="resize-none outline-none leading-[170%] px-2 w-full h-[74px] text-xsm md:text-sm font-normal opacity-90 text-black-light font-Inter bg-white ps-[10px] pt-[10px] pb-[7px] rounded-lg border border-[rgba(28_28_28_0.08)]"
               type="text"
               placeholder="Anything else you’d like us to know..."
               value={registration.textarea}
