@@ -83,7 +83,7 @@ const WhyUs = () => {
         </div>
         <div className="flex justify-center mt-16 lg:mt-20">
           <div className="px-10 cursor-pointer rounded-[38px] py-4 inline-block bg-gradient-to-r from-red-500 to-indigo-600 hover:from-indigo-800 hover:to-red-700 delay-1000">
-            <button aria-label='SellYourApp' className="text-white font-Manrope font-bold text-sm ">
+            <button className="text-white font-Manrope font-normal text-sm">
               SellYourApp
             </button>
           </div>
