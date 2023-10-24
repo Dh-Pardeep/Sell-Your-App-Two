@@ -3,7 +3,7 @@ import AboutYou from "../homepage/AboutYou";
 import AboutUs from "../homepage/AboutUs";
 import WhyUs from "../homepage/WhyUs";
 import HeroSection from "../homepage/HeroSection";
-// import HowWork from "../homepage/HowWork";
+import HowWork from "../homepage/HowWork";
 import Partnership from "../homepage/Partnership";
 import AppToday from "../homepage/AppToday";
 import Explore from "../homepage/Explore";
@@ -25,7 +25,7 @@ const HomePage = () => {
       <HeroSection />
       <AboutYou />
       <AboutUs />
-      {/* <HowWork /> */}
+      <HowWork />
       <Partnership />
       <AboutYou />
       <WhyUs />
