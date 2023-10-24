@@ -89,9 +89,9 @@ const AppToday = () => {
             className="w-full bg-card border border-[#C0ACE8] py-10 px-6"
           >
             <div className="md:flex gap-6 mb-6">
-              <div className="w-full">
+              <div className="w-full relative">
                 <input
-                  className=" px-2 w-full outline-none text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border-[1.4px] border-[rgba(39, 39, 39, 0.08)]"
+                  className=" px-2 w-full outline-none text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[7px] pb-[7px] rounded-lg border-[1.4px] border-[rgba(39, 39, 39, 0.08)] h-[44px]"
                   type="text"
                   placeholder="Your Name"
                   value={resistration.name}
@@ -100,16 +100,16 @@ const AppToday = () => {
                   name="name"
                 />
                 {error && resistration.name === "" ? (
-                  <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1">
+                  <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 absolute">
                     <FormError /> This field is required
                   </p>
                 ) : (
                   resistration !== ""
                 )}
               </div>
-              <div className="w-full">
+              <div className="w-full relative">
                 <input
-                  className=" px-2 w-full outline-none text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border-[1.4px] border-[rgba(39, 39, 39, 0.08) md:mt-0 mt-6"
+                  className=" px-2 w-full outline-none text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[7px] pb-[7px] rounded-lg border-[1.4px] border-[rgba(39, 39, 39, 0.08) md:mt-0 mt-6 h-[44px]"
                   type="text"
                   placeholder="Your Email"
                   value={resistration.email}
@@ -118,11 +118,11 @@ const AppToday = () => {
                   name="email"
                 />
                 {error && resistration.email === "" ? (
-                  <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 pointer-events-none h-[18px]">
+                  <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 pointer-events-none h-[18px] absolute">
                     <FormError /> This field is required
                   </p>
                 ) : error && regex.test(resistration.email) === false ? (
-                  <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 pointer-events-none h-[18px]">
+                  <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 pointer-events-none h-[18px] absolute">
                     <FormError /> This field is required
                   </p>
                 ) : (
@@ -131,9 +131,9 @@ const AppToday = () => {
               </div>
             </div>
             <div className="md:flex gap-6 mb-6 flex-col sm:flex-row">
-              <div className="w-full">
+              <div className="w-full relative">
                 <input
-                  className=" px-2 w-full outline-none text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border-[1.4px] border-[rgba(39, 39, 39, 0.08)"
+                  className=" px-2 w-full outline-none text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[7px] pb-[7px] rounded-lg border-[1.4px] border-[rgba(39, 39, 39, 0.08) h-[44px]"
                   type="text"
                   placeholder="Revenue Last Month"
                   value={resistration.Revenue}
@@ -142,7 +142,7 @@ const AppToday = () => {
                   name="Revenue"
                 />
                 {error && resistration.Revenue === "" ? (
-                  <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 pointer-events-none h-[18px]">
+                  <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 pointer-events-none h-[18px] absolute">
                     <FormError /> This field is required
                   </p>
                 ) : (
@@ -151,7 +151,7 @@ const AppToday = () => {
               </div>
               <div className="w-full">
                 <input
-                  className=" px-2 w-full outline-none text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border-[1.4px] border-[rgba(39, 39, 39, 0.08) md:mt-0 mt-6"
+                  className=" px-2 w-full outline-none text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[7px] pb-[7px] rounded-lg border-[1.4px] border-[rgba(39, 39, 39, 0.08) md:mt-0 mt-6 h-[44px]"
                   type="text"
                   placeholder="Download Last Month"
                   value={resistration.last}
@@ -161,9 +161,9 @@ const AppToday = () => {
                 />
               </div>
             </div>
-            <div className="w-full">
+            <div className="w-full relative">
               <input
-                className=" px-2 w-full outline-none  mb-6 text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border-[1.4px] border-[rgba(39, 39, 39, 0.08)"
+                className=" px-2 w-full outline-none  mb-6 text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[7px] pb-[7px] h-[44px] rounded-lg border-[1.4px] border-[rgba(39, 39, 39, 0.08)"
                 type="text"
                 placeholder="App URL..."
                 value={resistration.url}
@@ -172,7 +172,7 @@ const AppToday = () => {
                 name="url"
               />
               {error && resistration.url === "" ? (
-                <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 h-[18px] pointer-events-none">
+                <p className="text-[#000] opacity-90 text-[12px] font-Inter font-normal flex items-start mt-1 h-[18px] pointer-events-none absolute">
                   <FormError /> This field is required
                 </p>
               ) : (
@@ -180,7 +180,7 @@ const AppToday = () => {
               )}
             </div>
             <textarea
-              className=" px-2 w-full outline-none resize-none height-[74px] text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[10px] pb-[7px] rounded-lg border-[1.4px] border-[rgba(39, 39, 39, 0.08)"
+              className=" px-2 w-full outline-none resize-none h-[74px] text-[15px] lg:text-sm font-normal opacity-90 text-light-grey font-Inter bg-white leading-[174%] ps-[10px] pt-[9px] pb-[8px] rounded-lg border-[1.4px] border-[rgba(39, 39, 39, 0.08)"
               type="text"
               placeholder="Anything else you’d like us to know..."
               value={resistration.textarea}
