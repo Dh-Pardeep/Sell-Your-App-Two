@@ -83,7 +83,7 @@ const Explore = () => {
           </p>
         </div>
         <div className="lg:flex justify-center gap-x-[52px]">
-          <div className="lg:max-w-[500px] max-w-[430px] border border-[#3c2c47] px-4 w-full mt-[100px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
+          <div ref={card1Ref} className="cursor-pointer lg:max-w-[500px] max-w-[430px] border border-[#3c2c47] px-4 w-full mt-[100px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
             <img
               className=" absolute w-full top-0 left-0"
               src={shadow1}
@@ -111,7 +111,7 @@ const Explore = () => {
               <img className="unlock_bg px-5 py-4 w-[88px] h-[74px]" src={unlock} alt="unlock" />
             </div>
           </div>
-          <div className="lg:max-w-[500px] max-w-[430px] border border-[#3c2c47] px-4 w-full lg:mt-[100px] mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
+          <div ref={card2Ref} className="cursor-pointer lg:max-w-[500px] max-w-[430px] border border-[#3c2c47] px-4 w-full lg:mt-[100px] mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
             <img
               className=" absolute w-full bottom-0 left-0"
               src={shadow2}
@@ -141,7 +141,7 @@ const Explore = () => {
           </div>
         </div>
         <div className="lg:flex justify-center gap-x-[52px]">
-          <div className="lg:max-w-[500px] max-w-[430px] border border-[#3c2c47] px-4 w-full mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
+          <div ref={card3Ref} className="cursor-pointer lg:max-w-[500px] max-w-[430px] border border-[#3c2c47] px-4 w-full mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
             <img
               className="absolute bottom-0 right-0 w-full"
               src={shadow3}
@@ -170,7 +170,7 @@ const Explore = () => {
               <img className="unlock_bg px-5 py-4 w-[88px] h-[74px]" src={unlock} alt="unlock" />
             </div>
           </div>
-          <div className="lg:max-w-[500px] max-w-[430px] border border-[#3c2c47] px-4 w-full mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
+          <div ref={card4Ref} className="cursor-pointer lg:max-w-[500px] max-w-[430px] border border-[#3c2c47] px-4 w-full mt-[54px] overflow-hidden relative rounded-3xl bg-card-2 mx-auto lg:mx-0">
             <img
               className="w-full absolute top-0 left-0"
               src={shadow4}

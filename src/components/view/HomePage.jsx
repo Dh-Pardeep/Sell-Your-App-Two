@@ -33,7 +33,7 @@ const HomePage = () => {
   return (
     <div className="overflow-hidden">
       <BackToTop />
-      {/* <LoaderHome /> */}
+      <LoaderHome />
       <HeroSection />
       <AboutYou />
       <AboutUs />
