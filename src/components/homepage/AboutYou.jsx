@@ -146,7 +146,7 @@ const AboutYou = () => {
               </div>
 
               <input
-                className="outline-none leading-[170%] px-2 w-full text-xsm md:text-sm font-normal opacity-90 text-black-light font-Inter bg-white h-[46px]  ps-[10px] pt-[2px]  pb-[7px] rounded-lg border border-[rgba(28_28_28_0.08)]"
+                className="outline-none leading-[170%] px-2 w-full text-xsm md:text-sm font-normal opacity-90 text-black-light font-Inter bg-white h-[46px]  ps-[10px] pt-[7px]  pb-[7px] rounded-lg border border-[rgba(28_28_28_0.08)]"
                 type="text"
                 placeholder="Download Last Month"
                 value={registration.last}
@@ -155,7 +155,7 @@ const AboutYou = () => {
                 name="last"
               />
             </div>
-            <div className="w-full sm:mb-[14px]">
+            <div className="w-full mb-4 sm:mb-6 ">
               <input
                 className="outline-none leading-[170%] px-2 w-full text-xsm md:text-sm font-normal opacity-90 text-black-light font-Inter bg-white h-[46px]  ps-[10px] pt-[2px] pb-[7px] rounded-lg border border-[rgba(28_28_28_0.08)]"
                 type="text"
