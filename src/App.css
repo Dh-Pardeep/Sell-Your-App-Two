@@ -1,5 +1,11 @@
 /* =========ABOUTYOU============= */
 .about_bg {
+  background: -o-linear-gradient(
+      bottom,
+      rgba(255, 255, 255, 0.04) 0%,
+      rgba(255, 255, 255, 0.04) 100%
+    ),
+    #d3d3d34a 50% / cover no-repeat;
   background: -webkit-gradient(
       linear,
       left bottom,
@@ -8,14 +14,12 @@
       to(rgba(255, 255, 255, 0.04))
     ),
     #d3d3d34a 50% / cover no-repeat;
-  background: -o-linear-gradient(
-      bottom,
+  background: linear-gradient(
+      0deg,
       rgba(255, 255, 255, 0.04) 0%,
       rgba(255, 255, 255, 0.04) 100%
     ),
     #d3d3d34a 50% / cover no-repeat;
-  background: linear-gradient(180deg, rgb(231 141 225 / 4%) 0%, #fff 74%),
-    #eeecec4a 50% / cover no-repeat;
   -webkit-box-shadow: 4px 5px 65px 0px rgba(0, 0, 0, 0.06);
   box-shadow: 4px 5px 65px 0px rgba(0, 0, 0, 0.06);
 }
@@ -38,12 +42,26 @@
   -webkit-text-fill-color: transparent;
 }
 
+.about_you_gradient {
+  border-radius: 12px;
+  background: -o-linear-gradient(transparent);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(transparent)
+  );
+  background: linear-gradient(transparent);
+  position: relative;
+  background: transparent;
+}
+
 .about_you_gradient::after {
   content: "";
   position: absolute;
   border-radius: 12px;
-  padding: 1.3px;
-  opacity: 0.3;
+  padding: 1.2px;
+  opacity: 0.4;
   background: -o-linear-gradient(348deg, #ff3939 -4.42%, #4844f2 103.64%);
   background: linear-gradient(102deg, #ff3939 -4.42%, #4844f2 103.64%);
   inset: 0;
@@ -107,6 +125,12 @@
 .bg-card {
   border-radius: 24px;
   border: 1px solid #fff;
+  background: -o-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.6) 45.71%,
+    rgba(255, 255, 255, 0) 100%
+  );
   background: -webkit-gradient(
     linear,
     left top,
@@ -114,12 +138,6 @@
     from(rgba(255, 255, 255, 0)),
     color-stop(45.71%, rgba(255, 255, 255, 0.6)),
     to(rgba(255, 255, 255, 0))
-  );
-  background: -o-linear-gradient(
-    top,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.6) 45.71%,
-    rgba(255, 255, 255, 0) 100%
   );
   background: linear-gradient(
     180deg,
@@ -132,51 +150,59 @@
   -webkit-backdrop-filter: blur(27px);
   backdrop-filter: blur(27px);
 }
-
 /* Explore section */
-.bg-card-2 {
-  border-radius: 24px;
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(3.73%, rgba(255, 255, 255, 0.08)),
-    to(rgba(255, 255, 255, 0))
-  );
-  background: -o-linear-gradient(
-    top,
-    rgba(255, 255, 255, 0.08) 3.73%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.08) 3.73%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  -webkit-box-shadow: 0px 0px 40px 0px rgba(72, 68, 242, 0.04),
-    0px 0px 32px 0px rgba(72, 68, 242, 0.04) inset,
-    0px 0px 32px 0px rgba(255, 57, 57, 0.04) inset;
-  box-shadow: 0px 0px 40px 0px rgba(72, 68, 242, 0.04),
-    0px 0px 32px 0px rgba(72, 68, 242, 0.04) inset,
-    0px 0px 32px 0px rgba(255, 57, 57, 0.04) inset;
-  -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
-  cursor: pointer;
-}
+.bg-card {
+  .bg-card-2 {
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    background: -o-linear-gradient(
+      top,
+      rgba(255, 255, 255, 0.08) 3.73%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(3.73%, rgba(255, 255, 255, 0.08)),
+      to(rgba(255, 255, 255, 0))
+    );
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.08) 3.73%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(72, 68, 242, 0.04),
+      0px 0px 32px 0px rgba(72, 68, 242, 0.04) inset,
+      0px 0px 32px 0px rgba(255, 57, 57, 0.04) inset;
+    box-shadow: 0px 0px 40px 0px rgba(72, 68, 242, 0.04),
+      0px 0px 32px 0px rgba(72, 68, 242, 0.04) inset,
+      0px 0px 32px 0px rgba(255, 57, 57, 0.04) inset;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    cursor: pointer;
+  }
 
-.unlock_bg {
-  border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  background: rgba(255, 255, 255, 0.04);
+  .unlock_bg {
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    background: rgba(255, 255, 255, 0.04);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+  }
+  .bg-card-2:hover {
+    -webkit-box-shadow: 0px 0px 25px #281d3a;
+    box-shadow: 0px 0px 25px #281d3a;
+  }
+
   -webkit-backdrop-filter: blur(20px);
+
   backdrop-filter: blur(20px);
 }
 .bg-card-2:hover {
-  -webkit-box-shadow: 0px -3px 24px 20px #281d3a;
-  box-shadow: 0px -3px 24px 20px #281d3a;
+  -webkit-box-shadow: 0px 0px 25px #281d3a;
+  box-shadow: 0px 0px 25px #281d3a;
 }
-
 /* hero section  */
 .Sell_bg {
   background: -o-linear-gradient(348deg, #ff3939 -4.42%, #4844f2 103.64%);
@@ -205,13 +231,13 @@
 
 .entire_para_border {
   border-radius: 12px;
+  background: -o-linear-gradient(transparent);
   background: -webkit-gradient(
     linear,
     left top,
     left bottom,
     from(transparent)
   );
-  background: -o-linear-gradient(transparent);
   background: linear-gradient(transparent);
   position: relative;
   background: white;
@@ -246,13 +272,13 @@
 .my_box {
   color: white;
   border-radius: 50%;
+  background: -o-linear-gradient(transparent);
   background: -webkit-gradient(
     linear,
     left top,
     left bottom,
     from(transparent)
   );
-  background: -o-linear-gradient(transparent);
   background: linear-gradient(transparent);
   position: relative;
   padding: 5px;
@@ -286,7 +312,7 @@
 .Full_line::after {
   content: "";
   position: absolute;
-  height: 66%;
+  height: 63%;
   width: 3px;
   top: 90px;
   left: 26px;
@@ -308,10 +334,22 @@
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
   }
-  50% {
+
+  25% {
     -webkit-transform: translateY(8px);
     transform: translateY(8px);
   }
+
+  50% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+
+  75% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+
   100% {
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
@@ -323,10 +361,22 @@
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
   }
-  50% {
+
+  25% {
     -webkit-transform: translateY(8px);
     transform: translateY(8px);
   }
+
+  50% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+
+  75% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+
   100% {
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
@@ -365,14 +415,17 @@
   }
 
   50% {
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+    -webkit-transform: scale(2);
+    transform: scale(2);
   }
 
   100% {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+}
+.footer_hover:hover {
+  opacity: 0.5;
 }
 
 @media (max-width: 1023.9px) {
@@ -407,13 +460,13 @@
   }
 
   .overflow_hidden {
-    overflow: hidden !important;
+    overflow: hidden;
   }
 
   .close_nav {
     position: absolute;
-    right: 3%;
-    top: 23px;
+    right: 10%;
+    top: 25px;
     cursor: pointer;
   }
 }
@@ -445,7 +498,6 @@
     position: absolute;
     z-index: -1;
   }
-
   .before_img_line::before {
     content: url("./assets/img/png/How_Work_Bg_line.png");
     top: 79px;
@@ -454,8 +506,6 @@
     height: 10px;
     z-index: -1;
     position: absolute;
-    -webkit-transform: rotate(4deg);
-    -ms-transform: rotate(4deg);
     transform: rotate(4deg);
   }
 
